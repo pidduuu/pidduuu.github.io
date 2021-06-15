@@ -1,0 +1,35 @@
+* {
+    color: black;
+}
+
+.heading {
+    font-family: 'Courier New';
+    text-align: center;
+    padding-top: 33vh;
+    margin: 0;
+    font-size: 6vw;
+}
+
+.sub-heading {
+    font-family: 'Courier New';
+    text-align: center;
+    margin: 0;
+    font-size: 2vw;
+}
+
+.links {
+    font-family: 'Courier New';
+    list-style-type: none;
+    text-align: center;
+    padding-top: 8vh;
+    margin: 0;
+    font-size: 1.5vw;
+}
+.links a:any-link {
+    text-decoration: none;
+}
+li {
+    display: inline;
+    padding-right: 15px;
+    padding-left: 15px;
+}
