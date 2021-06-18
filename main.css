@@ -35,7 +35,7 @@
     text-decoration: underline;
 }
 
-@media (max-width: 540px) {
+@media screen and (max-width: 540px) {
     .heading {
         padding-top: 25vh;
         font-size: 550%;
