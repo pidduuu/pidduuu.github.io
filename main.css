@@ -54,6 +54,8 @@
         padding-bottom: 20vh;
     }
     .nav-links {
+        padding-left: 0px;
+        padding-right: 0px;
         padding-top: 15px;
         padding-bottom: 15px;
     }
