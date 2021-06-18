@@ -41,16 +41,16 @@
 @media (max-width: 540px) {
     .heading {
         padding-top: 25vh;
-        font-size: 570%;
+        font-size: 550%;
     }
     
     .sub-heading {
-        font-size: 220%;
+        font-size: 200%;
     }
     
     .navbar {
         flex-direction: column;
-        font-size: 120%;
+        font-size: 100%;
         padding-bottom: 20vh;
     }
     .nav-links {
