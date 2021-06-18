@@ -45,11 +45,11 @@
 @media screen and (max-width: 540px) {
     .heading {
         padding-top: 10vh;
-        font-size: 550%;
+        font-size: 500%;
     }
     
     .sub-heading {
-        font-size: 200%;
+        font-size: 150%;
     }
     
     .navbar {
