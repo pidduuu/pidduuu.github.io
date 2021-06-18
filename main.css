@@ -23,14 +23,10 @@
     justify-content: center;
     font-family: 'Courier New';
     list-style-type: none;
-    text-align: center;
     padding-top: 8vh;
     margin: 0;
     font-size: 150%;
     padding-bottom: 33vh;
-}
-.navbar a:any-link {
-    text-decoration: none;
 }
 .nav-links {
     padding-left: 15px;
