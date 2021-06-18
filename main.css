@@ -44,7 +44,7 @@
 
 @media screen and (max-width: 540px) {
     .heading {
-        padding-top: 25vh;
+        padding-top: 10vh;
         font-size: 550%;
     }
     
@@ -55,7 +55,7 @@
     .navbar {
         flex-direction: column;
         font-size: 100%;
-        padding-bottom: 20vh;
+        padding-bottom: 10vh;
     }
     .nav-links {
         padding-left: 0px;
