@@ -21,6 +21,7 @@
 .navbar {
     display: flex;
     justify-content: center;
+    text-align: center;
     font-family: 'Courier New';
     list-style-type: none;
     padding-top: 8vh;
