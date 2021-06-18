@@ -5,18 +5,17 @@
 .heading {
     font-family: 'Courier New';
     text-align: center;
-    padding-top: 33vh;
+    padding-top: 30vh;
     margin: 0;
     font-size: 600%;
 }
 
 .sub-heading {
-    display: flex;
-    justify-content: center;
     font-family: 'Courier New';
     text-align: center;
     margin: 0;
     font-size: 250%;
+    color: rgb(180, 180, 180);
 }
 
 .navbar {
@@ -36,13 +35,24 @@
 .nav-links {
     padding-left: 15px;
     padding-right: 15px;
+    text-decoration: underline;
 }
 
 @media (max-width: 540px) {
+    .heading {
+        padding-top: 25vh;
+        font-size: 570%;
+    }
+    
+    .sub-heading {
+        font-size: 220%;
+    }
+    
     .navbar {
         flex-direction: column;
+        font-size: 120%;
+        padding-bottom: 20vh;
     }
-
     .nav-links {
         padding-top: 15px;
         padding-bottom: 15px;
