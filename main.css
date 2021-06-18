@@ -4,6 +4,8 @@
 }
 
 .heading {
+    display: flex;
+    justify-content: center;
     text-align: center;
     padding-top: 30vh;
     margin: 0;
@@ -11,6 +13,8 @@
 }
 
 .sub-heading {
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin: 0;
     font-size: 250%;
