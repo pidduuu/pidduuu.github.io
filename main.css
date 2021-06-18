@@ -7,29 +7,30 @@
     text-align: center;
     padding-top: 33vh;
     margin: 0;
-    font-size: 6vw;
+    font-size: 600%;
 }
 
 .sub-heading {
     font-family: 'Courier New';
     text-align: center;
     margin: 0;
-    font-size: 2vw;
+    font-size: 250%;
 }
 
-.links {
+.navbar {
     font-family: 'Courier New';
     list-style-type: none;
     text-align: center;
     padding-top: 8vh;
     margin: 0;
-    font-size: 1.5vw;
+    font-size: 150%;
+    padding-bottom: 33vh;
 }
-.links a:any-link {
+.navbar a:any-link {
     text-decoration: none;
 }
-li {
+.nav-links {
     display: inline;
-    padding-right: 15px;
     padding-left: 15px;
+    padding-right: 15px;
 }
