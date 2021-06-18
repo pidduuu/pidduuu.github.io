@@ -1,9 +1,9 @@
 * {
+    font-family: 'Courier New';
     color: black;
 }
 
 .heading {
-    font-family: 'Courier New';
     text-align: center;
     padding-top: 30vh;
     margin: 0;
@@ -11,7 +11,6 @@
 }
 
 .sub-heading {
-    font-family: 'Courier New';
     text-align: center;
     margin: 0;
     font-size: 250%;
@@ -22,7 +21,6 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    font-family: 'Courier New';
     list-style-type: none;
     padding-top: 8vh;
     margin: 0;
@@ -32,6 +30,11 @@
 .nav-links {
     padding-left: 15px;
     padding-right: 15px;
+}
+.nav-links a:link {
+    text-decoration: none;
+}
+.nav-links a:hover {
     text-decoration: underline;
 }
 
