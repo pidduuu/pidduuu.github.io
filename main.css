@@ -1,6 +1,7 @@
 * {
     font-family: 'Courier New';
     color: black;
+    overflow: hidden;
 }
 
 .heading {
@@ -11,7 +12,6 @@
     margin: 0;
     font-size: 600%;
 }
-
 .sub-heading {
     display: flex;
     justify-content: center;
@@ -20,7 +20,6 @@
     font-size: 250%;
     color: rgb(180, 180, 180);
 }
-
 .navbar {
     display: flex;
     justify-content: center;
@@ -44,18 +43,16 @@
 
 @media screen and (max-width: 540px) {
     .heading {
-        padding-top: 10vh;
         font-size: 500%;
+        padding-top: 25vh;
     }
-    
     .sub-heading {
         font-size: 150%;
     }
-    
     .navbar {
         flex-direction: column;
         font-size: 100%;
-        padding-bottom: 10vh;
+        padding-bottom: 5vh;
     }
     .nav-links {
         padding-left: 0px;
