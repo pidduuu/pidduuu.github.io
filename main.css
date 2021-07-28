@@ -20,18 +20,18 @@
     color: rgb(180, 180, 180);
 }
 .navbar {
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin: 0;
+    padding: 0;
     text-align: center;
     list-style-type: none;
-    padding-top: 8vh;
+    padding-top: 5vh;
     margin: 0;
     font-size: 150%;
     padding-bottom: 33vh;
 }
 .nav-links {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 10px;
 }
 .nav-links a:link {
     text-decoration: none;
