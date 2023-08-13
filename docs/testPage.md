@@ -1,7 +1,7 @@
 ---
 layout: page
 title: testPage
-permalink: https://pidduuu.github.io
+permalink: /
 ---
 
 Hello world! pls show up thgabnkjs bvye
