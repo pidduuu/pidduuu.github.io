@@ -1,7 +1,7 @@
 ---
 layout: page
 title: testPage
-permalink: /
+permalink: /about/testPage
 ---
 
 Hello world! pls show up thgabnkjs bvye
