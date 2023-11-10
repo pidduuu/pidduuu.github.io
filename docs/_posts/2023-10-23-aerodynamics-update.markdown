@@ -87,4 +87,14 @@ This method of qualitative analysis was used to determine the profiles of the re
 
 <p align = "center"><font size = "2" color="#00aaff"><i>Table Y Final airfoil profile selections for MAC EV5</i></font></p>
 
-We finished off our airfoil analysis by running some quick numbers on a single-element and dual-element front wing, with the element profiles we just determined. Each profile was set to its maximum AoA given from Table Y.
+I finished off our airfoil analysis by justifying dual-element wings, by comparing single-and-dual element setups with some quick 2D simulations in Ansys Fluent with the element profiles we just determined. Each profile was set to its maximum AoA given from Table Y.
+
+| Wing Setup | Lift (N) | Drag (N) | Cl (-) | Cd (-)
+| Single-Element | -46.89 | 1.17 | -0.43 | 0.011
+| Dual-Element | -179.36 | 5.25 | -1.65 | 0.048
+
+<p align = "center"><font size = "2" color="#00aaff"><i>Table X Single-Element vs. Dual-Element Wing Setups</i></font></p>
+
+We can clearly see there is a significant improvement in downforce as we increase the number of elements. Yes, 2D CFD inflates numbers due to the assumption of an infinite wingspan, however it paints a good picture of the downforce increase when comparing element setups.
+
+For now, we will go forth will dual-element front and rear wings as I believe it strikes a good balance between performance, cost, and manufacturing time based on my past experience as the Composites Manufacturing Lead. More elements can be added to the design as deemed necessary.
