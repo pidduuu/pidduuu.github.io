@@ -47,3 +47,10 @@ From here I was able to calculate the dive angle through basic kinematics.
 ![excelCalculator](/assets/images/excelCalculator.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 
 <p align = "center"><font size = "2" color="#00aaff"><i>Figs. 5 and 6 Raw calculations (top) which I then transferred into an excel calculator (bottom)</i></font></p>
+
+For the time being we will assume squat angle of 3.5deg as well to save time. This should be calculated as well though.
+
+Now that we have the pitch, roll, and heave values, we can create a representative ground clearance surface in Solidworks. After modelling a preliminary full car CAD with the front and rear wings placed in their bounding boxes from FSAE Rules 2024 V1 T.7.7.2, I immediately noticed a problem.
+
+![FWground](/assets/images/FWground.png)
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 7 The front wing fancies the ground</i></font></p>
