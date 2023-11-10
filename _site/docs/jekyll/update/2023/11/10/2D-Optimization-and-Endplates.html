@@ -101,4 +101,43 @@
   </tbody>
 </table>
 
-<p align="center"><font size="2" color="#00aaff"><i>Table 3 Endplates vs. no endplates. Reduced flow mixing with endplates improves downforce and drag</i></font></p>
+<p align="center"><font size="2" color="#00aaff"><i>Table 3 Front wing with and without endplates. Reduced flow mixing with endplates improves downforce and drag</i></font></p>
+
+<p>Optimizing endplate geometry to reduced induced drag from the wingtip vortices will be explored in the full car, 3D analysis. For now, both the front and rear wings receive flat endplates.</p>
+
+<p>The rear wing receives larger endplates since we found through 3D CFD this improves the L/D of the wing from 4.04 (10mm buffer around edges of wing setup) to 4.66 (endplate extends 300mm below wing setup).</p>
+
+<hr />
+<h1 id="nose-cone-design">Nose Cone Design</h1>
+<p>Going into this I was very curious about a blunt-edge vs. pointy nose cone for a FSAE car.</p>
+
+<p>I’m pretty into old, legendary military fighters and love learning about how they pioneered modern day, agile interceptor aerodynamics. Don’t get me wrong, the F-35s philosophy of mission intelligence and networking is stunning, however it’s hard to not be attracted to the raw power and agility of a F-16…</p>
+
+<p>Apart from the long, vortex-generating leading edge strakes that make the F-16 look like it has jacked oblique muscles, another distinctive feature is that extremely pointed nose cone.</p>
+
+<p><img src="/assets/images/f16nose.jpg" alt="f16nose" style="display:block; margin-left:auto; margin-right:auto" /></p>
+<p align="center"><font size="2" color="#00aaff"><i>Fig. 8 F-16 nose cone</i></font></p>
+
+<p>I do understand that pointed noses work best at super-sonic speeds, however I couldn’t resist jumping into Ansys to see what would happen if I simulated a pointy nose cone at 13.33mps. Below are the results relative to a blunt-edge nose cone.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td>Blunt-Edge Nose Cone</td>
+      <td>Pointy Nose Cone</td>
+    </tr>
+    <tr>
+      <td>Images</td>
+      <td><img src="/assets/images/edgeCone.jpg" alt="egdeCone" /></td>
+      <td><img src="/assets/images/pointyCone.jpg" alt="pointyCone" /></td>
+    </tr>
+    <tr>
+      <td>Cd (-)</td>
+      <td>0.14</td>
+      <td>0.11</td>
+    </tr>
+  </tbody>
+</table>
+
+<p align="center"><font size="2" color="#00aaff"><i>Table 4 Blunt-Edge vs. Pointy Nose Cone</i></font></p>

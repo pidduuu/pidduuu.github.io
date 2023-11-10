@@ -49,4 +49,27 @@ Endplates are commonplace in race car aerodynamics, however I still wanted to qu
 | Cl (-) | -5.21 | -5.65
 | Cd (-) | 0.93 | 0.91
 
-<p align = "center"><font size = "2" color="#00aaff"><i>Table 3 Endplates vs. no endplates. Reduced flow mixing with endplates improves downforce and drag</i></font></p>
+<p align = "center"><font size = "2" color="#00aaff"><i>Table 3 Front wing with and without endplates. Reduced flow mixing with endplates improves downforce and drag</i></font></p>
+
+Optimizing endplate geometry to reduced induced drag from the wingtip vortices will be explored in the full car, 3D analysis. For now, both the front and rear wings receive flat endplates.
+
+The rear wing receives larger endplates since we found through 3D CFD this improves the L/D of the wing from 4.04 (10mm buffer around edges of wing setup) to 4.66 (endplate extends 300mm below wing setup).
+
+---
+# Nose Cone Design
+Going into this I was very curious about a blunt-edge vs. pointy nose cone for a FSAE car.
+
+I'm pretty into old, legendary military fighters and love learning about how they pioneered modern day, agile interceptor aerodynamics. Don't get me wrong, the F-35s philosophy of mission intelligence and networking is stunning, however it's hard to not be attracted to the raw power and agility of a F-16...
+
+Apart from the long, vortex-generating leading edge strakes that make the F-16 look like it has jacked oblique muscles, another distinctive feature is that extremely pointed nose cone.
+
+![f16nose](/assets/images/f16nose.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 8 F-16 nose cone</i></font></p>
+
+I do understand that pointed noses work best at super-sonic speeds, however I couldn't resist jumping into Ansys to see what would happen if I simulated a pointy nose cone at 13.33mps. Below are the results relative to a blunt-edge nose cone.
+
+|  | Blunt-Edge Nose Cone | Pointy Nose Cone
+| Images | ![egdeCone](/assets/images/edgeCone.jpg) | ![pointyCone](/assets/images/pointyCone.jpg)
+| Cd (-) | 0.14 | 0.11
+
+<p align = "center"><font size = "2" color="#00aaff"><i>Table 4 Blunt-Edge vs. Pointy Nose Cone</i></font></p>
