@@ -42,8 +42,8 @@ From here I was able to calculate the dive angle through basic kinematics.
 ![FBD](/assets/images/FBD.JPEG)
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 4 FBD of EV5</i></font></p>
 
-![FBDcalcs](/assets/images/FBDcalcs.JPEG)
+![FBDcalcs](/assets/images/FBDcalcs.JPEG){:style="display:block; margin-left:auto; margin-right:auto"}
 
-![excelCalculator](/assets/images/excelCalculator.jpg)
+![excelCalculator](/assets/images/excelCalculator.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 
 <p align = "center"><font size = "2" color="#00aaff"><i>Figs. 5 and 6 Raw calculations (top) which I then transferred into an excel calculator (bottom)</i></font></p>
