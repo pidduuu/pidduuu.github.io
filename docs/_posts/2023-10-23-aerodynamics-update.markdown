@@ -63,4 +63,11 @@ To simplify polar plot analysis, I made some preliminary assumptions based on th
 
 <p align = "center"><font size = "2"><i>Air speed=13.33mps and NCrit=9 since it is commonly used. More wing elements can be pursued if more downforce is required to hit the initial design target of Cl=4.6</i></font></p>
 
-After making these assumptions, I began to look at the polar plots of these airfoils at on [airfoiltools.com](http://airfoiltools.com/)
+After making these assumptions, I began to look at the polar plots of these airfoils at on [airfoiltools.com](http://airfoiltools.com/). The objective(s) of each wing element are summarized below.
+
+|  | Front Wing Elements | Rear Wing Primary Element | Rear Wing Secondary Element
+| Objective(s) | High downforce at low AoA | High downforce | High downforce at maximum L/D
+| Reasoning | Want to minimize upwash, since more upwash would make it harder to direct airflow to other areas of the car (e.g. radiator(s), rear wing, etc.) during the design phase | From T.7.7.2, the bounding box for the rear wing is larger than the front wing, meaning we can have a larger rear wing, meaning more downforce. We should capitalize on this rule and ensure the rear wing produces a lot of downforce to meet our design target, which is why we will pay less attention to the AoA and pay more attention to the raw, peak Cl | The secondary element will be more exposed to the free stream air, so we want to still ensure high downforce without producing too much drag
+| Relevant Polar Plots | Cl v Alpha, Cl/Cd v Alpha | Cl v Alpha | Cl v Alpha, Cl/Cd v Alpha
+
+<p align = "center"><font size = "2"><i>Qualitative analysis to determine high level wing objectives and plots relevant to said objectives</i></font></p>
