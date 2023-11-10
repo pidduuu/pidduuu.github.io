@@ -1,1 +1,71 @@
+<h1 id="multi-element-2d-optimization">Multi-Element 2D Optimization</h1>
+<p>After selecting our wing element profiles from <a href="https://pidduuu.github.io/jekyll/update/2023/10/23/EV5-Aerodynamics-Justification.html">EV5 Aerodynamics Justification</a> I started optimizing the 2D placement of the wing elements, starting with the front wing.</p>
+
+<p>I kept the primary element at its minimum AoA given in the optimal free stream ranges I found, as this would lead to more vertical clearance to fit the secondary element inside the bounding box at a higher AoA. Keeping the primary element at its minimum AoA also meant enhanced ground effect since a larger portion of the chord would be closer to the ground.</p>
+
+<p><img src="/assets/images/groundEffect.jpg" alt="groundEffect" style="display:block; margin-left:auto; margin-right:auto" /></p>
+<p align="center"><font size="2" color="#00aaff"><i>Fig. 1 Ground Effect</i></font></p>
+
+<p>Due to the internal design freeze being December 10th, I unfortunately did not have time this year to pursue an iterative MATLAB algorithm to determine the optimal wing setup given some basic parameters like the bounding box, air speed, and target L/D ratio. This is typically what teams do. Instead, we brute forced our way through it and ran 45 2D CFD simulations in Ansys Fluent to draw some general conclusions about what we should change if we want more downforce and less drag.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/assets/images/AoADF.jpg" alt="AoADF" /></td>
+      <td><img src="/assets/images/AoAD.jpg" alt="AoAD" /></td>
+    </tr>
+    <tr>
+      <td><img src="/assets/images/OverlapDF.jpg" alt="OverlapDF" /></td>
+      <td><img src="/assets/images/OverlapD.jpg" alt="OverlapD" /></td>
+    </tr>
+    <tr>
+      <td><img src="/assets/images/SGDF.jpg" alt="SGDF" /></td>
+      <td><img src="/assets/images/SGD.jpg" alt="SGD" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<p align="center"><font size="2" color="#00aaff"><i>Figs. 2, 3, 4, 5, 6, and 7 General trends of airfoil parameters. We isolated one parameter (e.g. AoA) and kept the others constant (e.g. overlap and slot gap) to understand the effects of each parameter</i></font></p>
+
+<p>Using these general trends we tested combinations of these parameters to try and achieve the highest amount of downforce. Since the plan is to only use wings this year, achieving our target of Cl=4.6 will require some aggressive setups. 4.6 may not even be possible with just wings, especially since we don’t have time to optimize the lift of the chassis, however we want to see how close we can get.</p>
+
+<p>Eventually, through more 2D CFD at 13.33mps, we converged to preliminary setups for the front and rear wings.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/assets/images/FWvelocity.jpg" alt="FWvelocity" /></td>
+      <td><img src="/assets/images/FWpressure.jpg" alt="FWpressure" /></td>
+    </tr>
+    <tr>
+      <td>Downforce (N)</td>
+      <td>186.85</td>
+    </tr>
+    <tr>
+      <td>Drag (N)</td>
+      <td>2.22</td>
+    </tr>
+  </tbody>
+</table>
+
+<p align="center"><font size="2" color="#00aaff"><i>Figs. 8 and 9 Front wing velocity and pressure contour plots</i></font></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/assets/images/RWvelocity.jpg" alt="RWvelocity" /></td>
+      <td><img src="/assets/images/RWpressure.jpg" alt="RWpressure" /></td>
+    </tr>
+    <tr>
+      <td>Downforce (N)</td>
+      <td>224.40</td>
+    </tr>
+    <tr>
+      <td>Drag (N)</td>
+      <td>4.83</td>
+    </tr>
+  </tbody>
+</table>
+
+<p align="center"><font size="2" color="#00aaff"><i>Figs. 10 and 11 Rear wing velocity and pressure contour plots</i></font></p>
 

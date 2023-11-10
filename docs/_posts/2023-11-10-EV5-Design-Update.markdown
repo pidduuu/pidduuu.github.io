@@ -4,9 +4,10 @@ title:  "EV5 Design Update"
 date:   2023-11-10 02:52:00 -0400
 categories: jekyll update
 ---
+# Multi-Element 2D Optimization
 After selecting our wing element profiles from [EV5 Aerodynamics Justification](https://pidduuu.github.io/jekyll/update/2023/10/23/EV5-Aerodynamics-Justification.html) I started optimizing the 2D placement of the wing elements, starting with the front wing.
 
-I kept the primary element at its minimum AoA given in the optimal free stream ranges I found, as this would lead to more vertical clearance to fit the secondary element inside the bounding box at a higher AoA. Keeping the primary element at its minimum AoA also meant a greater chance of ground effect since a larger portion of the chord would be closer to the ground.
+I kept the primary element at its minimum AoA given in the optimal free stream ranges I found, as this would lead to more vertical clearance to fit the secondary element inside the bounding box at a higher AoA. Keeping the primary element at its minimum AoA also meant enhanced ground effect since a larger portion of the chord would be closer to the ground.
 
 ![groundEffect](/assets/images/groundEffect.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 1 Ground Effect</i></font></p>
@@ -17,4 +18,21 @@ Due to the internal design freeze being December 10th, I unfortunately did not h
 | ![OverlapDF](/assets/images/OverlapDF.jpg) | ![OverlapD](/assets/images/OverlapD.jpg)
 | ![SGDF](/assets/images/SGDF.jpg) | ![SGD](/assets/images/SGD.jpg)
 
-<p align = "center"><font size = "2" color="#00aaff"><i>Figs. 2, 3, 4, 5, 6, and 7 General trends of airfoil parameters</i></font></p>
+<p align = "center"><font size = "2" color="#00aaff"><i>Figs. 2, 3, 4, 5, 6, and 7 General trends of airfoil parameters. We isolated one parameter (e.g. AoA) and kept the others constant (e.g. overlap and slot gap) to understand the effects of each parameter</i></font></p>
+
+Using these general trends we tested combinations of these parameters to try and achieve the highest amount of downforce. Since the plan is to only use wings this year, achieving our target of Cl=4.6 will require some aggressive setups. 4.6 may not even be possible with just wings, especially since we don't have time to optimize the lift of the chassis, however we want to see how close we can get.
+
+Eventually, through more 2D CFD at 13.33mps, we converged to preliminary setups for the front and rear wings.
+
+| ![FWvelocity](/assets/images/FWvelocity.jpg) | ![FWpressure](/assets/images/FWpressure.jpg)
+| Downforce (N) | 186.85
+| Drag (N) | 2.22
+
+<p align = "center"><font size = "2" color="#00aaff"><i>Figs. 8 and 9 Front wing velocity and pressure contour plots</i></font></p>
+
+| ![RWvelocity](/assets/images/RWvelocity.jpg) | ![RWpressure](/assets/images/RWpressure.jpg)
+| Downforce (N) | 224.40
+| Drag (N) | 4.83
+
+<p align = "center"><font size = "2" color="#00aaff"><i>Figs. 10 and 11 Rear wing velocity and pressure contour plots</i></font></p>
+
