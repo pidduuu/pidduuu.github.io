@@ -43,7 +43,7 @@ Now we have a set target of Cl=4.6 and Cd=1.92, or more useful ClA=5.47 and CdA=
 
 ---
 # Airfoil Selection
-The design philosophy this year is to keep it simple. No DRS, 10-element wings, sidepods, or Newey-esc undertrays. I simply want to understand everything there is to know about airfoils and airfoil selection before we pursue further devices. After all, bolting on a part you don't understand is worse than not bolting on the part at all.
+The design philosophy this year is to keep it simple. No DRS, 10-element wings, sidepods, or Newey-esc undertrays. I simply want to understand everything there is to know about airfoils and airfoil selection before we pursue further devices. After all, bolting on a part you don't understand is worse than not bolting on the part at all. The goal is to be competitive **and** learn, not either or.
 
 Since we want to keep it simple, we decided not to pursue our own airfoil design and instead look at commonly used FSAE airfoils. Some Google searches later and we converged to the NACA 6412 and 4412, Selig S1223, and Eppler E423.
 
