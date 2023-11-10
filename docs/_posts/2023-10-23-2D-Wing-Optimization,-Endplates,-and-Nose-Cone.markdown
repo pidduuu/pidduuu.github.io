@@ -7,7 +7,7 @@ categories: jekyll update
 
 ---
 # Preliminary 2D Multi-Element Optimization
-After selecting our wing element profiles from [EV5 Aerodynamics Justification](https://pidduuu.github.io/jekyll/update/2023/10/23/EV5-Aerodynamics-Justification.html) I started optimizing the 2D placement of the wing elements, starting with the front wing.
+After selecting our wing element profiles from [Justification for Aerodynamics](https://pidduuu.github.io/jekyll/update/2023/10/01/Justification-for-Aerodynamics.html) I started optimizing the 2D placement of the wing elements, starting with the front wing.
 
 I kept the primary element at its minimum AoA given in the optimal free stream ranges I found, as this would lead to more vertical clearance to fit the secondary element inside the bounding box at a higher AoA. Keeping the primary element at its minimum AoA also meant enhanced ground effect since a larger portion of the chord would be closer to the ground.
 
