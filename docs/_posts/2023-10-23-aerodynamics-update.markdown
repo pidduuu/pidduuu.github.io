@@ -98,3 +98,5 @@ I finished off our airfoil analysis by justifying dual-element wings, by compari
 We can clearly see there is a significant improvement in downforce as we increase the number of elements. Yes, 2D CFD inflates numbers due to the assumption of an infinite wingspan, however it paints a good picture of the downforce increase when comparing element setups.
 
 For now, we will go forth will dual-element front and rear wings as I believe it strikes a good balance between performance, cost, and manufacturing time based on my past experience as the Composites Manufacturing Lead. More elements can be added to the design as deemed necessary.
+
+Until next time.
