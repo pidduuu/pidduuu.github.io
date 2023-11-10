@@ -1,6 +1,6 @@
-<p>I’d like to preface this update with a huge thank you to everyone who works on <a href="https://www.designjudges.com/">designjudges.com</a>. This collection of articles has been invaluable to myself and everyone at MAC Formula Electric over the past year and a half. It has opened our eyes to more things we need to consider in our subsystem designs.</p>
+<p>I’d like to preface this design update with a huge thank you to everyone who works on <a href="https://www.designjudges.com/">designjudges.com</a>. This collection of articles has been invaluable to myself and everyone at MAC Formula Electric over the past year and a half. It has opened our eyes to more things we need to consider in our subsystem designs.</p>
 
-<p>Also, special thank you to Noah Dropkin for writing <a href="https://www.designjudges.com/articles/aero-placement-and-mounting">Aero Placement and Mounting</a>. The following design update owes its thought process to this article.</p>
+<p>Also, special thank you to Noah Dropkin for writing <a href="https://www.designjudges.com/articles/aero-placement-and-mounting">Aero Placement and Mounting</a>. The following design update owes its contents to this article.</p>
 
 <p>To anyone on MAC Formula Electric who may be reading this, <strong>read a relevant article on design judges before starting a new design!</strong></p>
 
@@ -8,15 +8,23 @@
 <h1 id="pitch-roll-and-heave">Pitch, Roll, and Heave</h1>
 <p>In my very first year of university, I never thought more of the ride height a race car was set at. 1 inch off the ground? Go for it. 1mm off the ground? Looks cool!</p>
 
-<p>What I failed to realize at the time was how important suspension behaviours are for aerodynamic device placement, especially for ground effect devices such as the front wing and undertray. This importance is amplified in FSAE due to FSAE Rules 2024 V.1.4.1.</p>
+<p>What I failed to realize at the time was how important suspension behaviours are for aerodynamic device placement, especially for ground effect devices such as the front wing and undertray. This importance is amplified due to FSAE Rules 2024 V.1.4.1.</p>
 
 <p><img src="/assets/images/V.1.4.1.jpg" alt="V.1.4.1" style="display:block; margin-left:auto; margin-right:auto" /></p>
 <p align="center"><font size="2" color="#00aaff"><i>Fig. 1 V.1.4.1</i></font></p>
 
-<p>We are not a Formula 1 team. We do not have a skid plate, and we can’t make sparks every other corner out of fear of being disqualified.</p>
+<p>We are not a Formula 1 team. We do not have a skid block, and we can’t make sparks every other corner out of fear of being disqualified.</p>
 
 <p>Your ride height is never your ground clearance in a dynamic state. There will always be pitch, roll, and heave to bring the chassis and front wing ever so slightly closer to the ground. This is very well illustrated from <a href="https://www.designjudges.com/articles/aero-placement-and-mounting">Aero Placement and Mounting</a>.</p>
 
 <p><img src="/assets/images/aeroPlacement.jpg" alt="aeroPlacement" style="display:block; margin-left:auto; margin-right:auto" /></p>
 <p align="center"><font size="2" color="#00aaff"><i>Fig. 1 Pitch, roll, and heave</i></font></p>
 
+<p>From here I began finding the maximum pitch, roll, and heave values for EV5. After a discussion with the suspension subteam, we will not exceed 2deg of roll due to the addition of an anti-roll bar in both the front and rear. One value down.</p>
+
+<p>Heave is another easy one. Worst case scenario we assume maximum heave allowable by the suspension, which for our springs is 57mm/2=28.5mm to allow at least 1 inch of wheel travel in rebound and compression to satisfy FSAE Rules 2024 V.3.1.1.</p>
+
+<p><img src="/assets/images/travel.jpg" alt="V.3.1.1" style="display:block; margin-left:auto; margin-right:auto" /></p>
+<p align="center"><font size="2" color="#00aaff"><i>Fig. 1 V.3.1.1</i></font></p>
+
+<p>Dive and squat angles took a little while to calculate, though.</p>
