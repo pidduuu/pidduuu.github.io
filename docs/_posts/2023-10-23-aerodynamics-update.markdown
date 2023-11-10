@@ -75,6 +75,5 @@ After making these assumptions, I began to look at the polar plots of these airf
 The Eppler E423 was a clear choice for the FWPE, as it had nearly as high a Cl as the highest Cl airfoil, the Selig S1223, while having the best L/D ratio at 5.0deg AoA, as can be seen in the 2 plots below.
 
 | ![FWPE1](/assets/images/FWPE1.jpg) | ![FWPE2](/assets/images/FWPE2.jpg)
-
 <p align = "center"><font size = "2" color="purple"><i>S1223</i></font><font size = "2" color="#00aaff"><i> and </i></font><font size = "2" color="orange"><i>E423</i></font></p>
 
