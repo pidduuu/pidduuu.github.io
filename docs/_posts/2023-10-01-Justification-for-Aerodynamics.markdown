@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Justification for Aerodynamics"
-date:   2023-10-23 01:07:00 -0400
+date:   2023-10-01 01:07:00 -0400
 categories: jekyll update
 ---
 The past month and a half has been extremely busy...
