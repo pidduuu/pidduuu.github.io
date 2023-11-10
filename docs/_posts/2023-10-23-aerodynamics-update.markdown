@@ -48,10 +48,10 @@ The design philosophy this year is to keep it simple. No DRS, 10-element wings, 
 
 Since we want to keep it simple, we decided not to pursue our own airfoil design and instead look at commonly used FSAE airfoils. Some Google searches later and we converged to the NACA 6412 and 4412, Selig S1223, and Eppler E423.
 
-To simplify polar plot analysis, I made some preliminary assumptions based on the aerodynamic bounding boxes from the FSAE Rules 2024 V1, rule T.7.7.2.
+To simplify polar plot analysis, I made some preliminary assumptions based on the aerodynamic bounding boxes from FSAE Rules 2024 V1 T.7.7.2.
 
 |  | Front Wing Primary Element | Front Wing Secondary Element | Rear Wing Primary Element | Rear Wing Secondary Element
 | Chord (mm) | 400 | 300 | 500 | 400
 | Re (-) | 352,856 | 264, 642 | 441,069 | 352,856
 
-<p align = "center">Air speed=13.33mps and NCrit=9 since it is commonly used<i></i></p>
+<p align = "center">Air speed=13.33mps and NCrit=9 since it is commonly used. Dual-element front and rear wing as it seems like a balanced starting point between performance (i.e. slightly rear-biased center of pressure for medium-to-high speed stability), cost, and CFRP manufacturing time. More elements can be pursued if more downforce is required to hit the initial design target of Cl=4.6<i></i></p>
