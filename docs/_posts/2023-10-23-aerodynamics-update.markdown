@@ -12,13 +12,16 @@ Increasing the normal force increases the lateral force at a given slip angle. W
 ![43075](/assets/images/43075.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><i>Hoosier 43075 w/ 7" Rim Width</i></p>
 
-From here we can interpolate % changes in lateral force with and without theoretical aerodynamic devices.
+From here we can interpolate % changes in lateral force with and without theoretical aerodynamic devices, assuming 196N (front wing) + 236N (rear wing) of downforce at 13.33mps, which through competitive analysis we have determined is the average FSAE speed around the FSAE Michigan endurance circuit.
 
 | Slip Angle (deg) | Lateral Force w/o Aero (N)| Lateral Force w/ Aero (N) | Change (%)
-| 1  |                  |
-| 2      | $250                      |
-| 3 | $80                       |
-|      | $420                      |
+| 1 | 404 | 436.4 | 8.02%
+| 2 | 578.7 | 626.76 | 8.30% 
+| 3 | 759.65 | 830.12 | 9.28%
 
+From the % changes it's clear to see the improvement aerodynamic devices could make in lateral force. 
 
 ---
+# Faster in the Corners, Slower on the Straights
+Quantifying the change in performance in tires is important, but ensuring laptime is more sensitive to downforce rather than drag is equally as important. For this reason we developed an in-house lap simulation program using MATLAB since we would not be able to generate the required graph from OptimumLap. Full credits go to Sepehr Makarian Abdolahi for writing this program quantify design constraints for the aerodynamics and powertrain subsystems.
+![laptimeCl](/assets/images/laptimeCl.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
