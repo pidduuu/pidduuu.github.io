@@ -54,4 +54,4 @@ To simplify polar plot analysis, I made some preliminary assumptions based on th
 | Chord (mm) | 400 | 300 | 500 | 400
 | Re (-) | 352,856 | 264, 642 | 441,069 | 352,856
 
-<p align = "center">Air speed=13.33mps and NCrit=9 since it is commonly used. Dual-element front and rear wing as it seems like a balanced starting point between performance (i.e. slightly rear-biased center of pressure for medium-to-high speed stability), cost, and CFRP manufacturing time. More elements can be pursued if more downforce is required to hit the initial design target of Cl=4.6<i></i></p>
+<p align = "center"><i>Air speed=13.33mps and NCrit=9 since it is commonly used. Dual-element front and rear wing as it seems like a balanced starting point between performance (i.e. slightly rear-biased center of pressure for medium-to-high speed stability), cost, and CFRP manufacturing time. More elements can be pursued if more downforce is required to hit the initial design target of Cl=4.6</i></p>
