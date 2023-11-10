@@ -52,5 +52,8 @@ For the time being we will assume squat angle of 3.5deg as well to save time. Th
 
 Now that we have the pitch, roll, and heave values, we can create a representative ground clearance surface in Solidworks. After modelling a preliminary full car CAD with the front and rear wings placed in their bounding boxes from FSAE Rules 2024 V1 T.7.7.2, I immediately noticed a problem.
 
+![aeroBB](/assets/images/aeroBB.png)
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 7 Bounding boxes from T.7.7.2</i></font></p>
+
 ![FWground](/assets/images/FWground.png)
-<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 7 The front wing fancies the ground</i></font></p>
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 8 The front wing fancies the ground</i></font></p>
