@@ -1,5 +1,5 @@
 <hr />
-<h1 id="multi-element-2d-optimization">Multi-Element 2D Optimization</h1>
+<h1 id="preliminary-2d-multi-element-optimization">Preliminary 2D Multi-Element Optimization</h1>
 <p>After selecting our wing element profiles from <a href="https://pidduuu.github.io/jekyll/update/2023/10/23/EV5-Aerodynamics-Justification.html">EV5 Aerodynamics Justification</a> I started optimizing the 2D placement of the wing elements, starting with the front wing.</p>
 
 <p>I kept the primary element at its minimum AoA given in the optimal free stream ranges I found, as this would lead to more vertical clearance to fit the secondary element inside the bounding box at a higher AoA. Keeping the primary element at its minimum AoA also meant enhanced ground effect since a larger portion of the chord would be closer to the ground.</p>
@@ -49,7 +49,7 @@
   </tbody>
 </table>
 
-<p align="center"><font size="2" color="#00aaff"><i>Figs. 8 and 9 Front wing velocity and pressure contour plots</i></font></p>
+<p align="center"><font size="2" color="#00aaff"><i>Table 1 Front wing velocity and pressure contour plots</i></font></p>
 
 <table>
   <tbody>
@@ -68,5 +68,37 @@
   </tbody>
 </table>
 
-<p align="center"><font size="2" color="#00aaff"><i>Figs. 10 and 11 Rear wing velocity and pressure contour plots</i></font></p>
+<p align="center"><font size="2" color="#00aaff"><i>Table 2 Rear wing velocity and pressure contour plots</i></font></p>
 
+<hr />
+<h1 id="preliminary-endplate-designs">Preliminary Endplate Designs</h1>
+<p>With the wing setups optimized, I turned my attention to justifying and modelling preliminary endplates.</p>
+
+<p>Endplates are commonplace in race car aerodynamics, however I still wanted to quantify change in downforce and drag with and without endplates to be thorough. I want future members to understand why we are spending extra money and man power to manufacture endplates.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td>w/o Endplates</td>
+      <td>w/ Flat Endplates</td>
+    </tr>
+    <tr>
+      <td>Cl (-)</td>
+      <td>-5.21</td>
+      <td>-5.65</td>
+    </tr>
+    <tr>
+      <td>Cd (-)</td>
+      <td>0.93</td>
+      <td>0.91</td>
+    </tr>
+    <tr>
+      <td>Images</td>
+      <td><img src="/assets/images/noEP.jpg" alt="noEP" /></td>
+      <td><img src="/assets/images/EP.jpg" alt="EP" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<p align="center"><font size="2" color="#00aaff"><i>Table 3 Rear wing velocity and pressure contour plots</i></font></p>
