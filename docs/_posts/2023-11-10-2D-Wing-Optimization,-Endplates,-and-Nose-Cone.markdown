@@ -73,3 +73,5 @@ I do understand that pointed noses work best at super-sonic speeds, however I co
 | Cd (-) | 0.14 | 0.11
 
 <p align = "center"><font size = "2" color="#00aaff"><i>Table 4 Blunt-Edge vs. Pointy Nose Cone</i></font></p>
+
+At the current point in time it's hard to say whether I got lucky and stumbled upon a low drag geometry, or if pointy nose cones are the way to go for all FSAE applications. Answering that question requires further analysis and simulating many more models with different curves. However, at the current point in time we will be going with the pointy nose cone for its reduced drag coefficient.
