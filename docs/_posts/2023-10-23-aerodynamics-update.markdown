@@ -7,7 +7,7 @@ categories: jekyll update
 The past month and a half has been extremely busy...
 
 ![EV5 1080P](/assets/images/EV5 1080P.JPG){:style="display:block; margin-left:auto; margin-right:auto"}
-<p align = "center"><font size = "2"><i>Preliminary Render of EV5 Concept</i></font>/p>
+<p align = "center"><font size = "2"><i>Preliminary Render of EV5 Concept</i></font></p>
 
 ---
 # It's All About Tires
