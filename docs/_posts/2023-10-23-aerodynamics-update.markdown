@@ -15,10 +15,10 @@ Increasing the normal force increases the lateral force at a given slip angle. W
 From here we can interpolate % changes in lateral force with and without theoretical aerodynamic devices.
 
 | Slip Angle (deg) | Lateral Force w/o Aero (N)| Lateral Force w/ Aero (N) | Change (%)
-| --------         | -------                   |
-| January          | $250                      |
-| February         | $80                       |
-| March            | $420                      |
+| 1  |                  |
+| 2      | $250                      |
+| 3 | $80                       |
+|      | $420                      |
 
 
 ---
