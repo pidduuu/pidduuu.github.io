@@ -78,3 +78,11 @@ The Eppler E423 was a clear choice for the FWPE, as it had nearly as high a Cl a
 
 <p align = "center"><font size = "2" color="purple"><i>S1223</i></font><font size = "2" color="#00aaff"><i> and </i></font><font size = "2" color="orange"><i>E423</i></font><font size = "2" color="#00aaff"><i> at Re=500,000 (you can't input specific Re into airfoiltools.com unfortunately, so I had to round to the closest available Re)</i></font></p>
 
+This method of qualitative analysis was used to determine the profiles of the remaining elements, which can be seen in the summary table below along with their optimal free stream AoA ranges.
+
+|  | Front Wing Primary Element | Front Wing Secondary Element | Rear Wing Primary Element | Rear Wing Secondary Element
+| Profile | Eppler E423 | Selig S1223 | Selig S1223 | Eppler E423
+| Chord (mm) | 400 | 300 | 500 | 400
+| Optimal AoA Range for Cl/Cd at 13.33mps (deg) | -5.0 to 10 | -2.5 to 10 | 0 to 10 | 0 to 10
+
+<p align = "center"><font size = "2" color="#00aaff"><i>Final airfoil profile selections for MAC EV5</i></font></p>
