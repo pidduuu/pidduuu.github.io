@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "EV5 Design Update"
+title:  "2D Optimization and Endplates"
 date:   2023-11-10 02:52:00 -0400
 categories: jekyll update
 ---
