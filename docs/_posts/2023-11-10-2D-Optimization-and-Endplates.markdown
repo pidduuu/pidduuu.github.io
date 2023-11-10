@@ -69,7 +69,7 @@ Apart from the long, vortex-generating leading edge strakes that make the F-16 l
 I do understand that pointed noses work best at super-sonic speeds, however I couldn't resist jumping into Ansys to see what would happen if I simulated a pointy nose cone at 13.33mps. Below are the results relative to a blunt-edge nose cone.
 
 |  | Blunt-Edge Nose Cone | Pointy Nose Cone
-| Images | ![egdeCone](/assets/images/edgeCone.jpg) | ![pointyCone](/assets/images/pointyCone.jpg)
+| Images | ![edgeCone](/assets/images/edgeCone.jpg) | ![pointyCone](/assets/images/pointyCone.jpg)
 | Cd (-) | 0.14 | 0.11
 
 <p align = "center"><font size = "2" color="#00aaff"><i>Table 4 Blunt-Edge vs. Pointy Nose Cone</i></font></p>
