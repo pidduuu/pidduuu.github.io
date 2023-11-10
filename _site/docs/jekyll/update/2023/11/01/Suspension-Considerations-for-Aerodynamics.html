@@ -6,7 +6,7 @@
 
 <hr />
 <h1 id="pitch-roll-and-heave">Pitch, Roll, and Heave</h1>
-<p>In my very first year of university, I never thought more of the ride height a race car was set at. 1 inch off the ground? Go for it. 1mm off the ground? Looks cool!</p>
+<p>In my first year of university, I never thought more of the ride height a race car was set at. 1 inch off the ground? Go for it. 1mm off the ground? Looks cool!</p>
 
 <p>What I failed to realize at the time was how important suspension behaviours are for aerodynamic device placement, especially for ground effect devices such as the front wing and undertray. This importance is amplified due to FSAE Rules 2024 V.1.4.1.</p>
 
@@ -18,13 +18,31 @@
 <p>Your ride height is never your ground clearance in a dynamic state. There will always be pitch, roll, and heave to bring the chassis and front wing ever so slightly closer to the ground. This is very well illustrated from <a href="https://www.designjudges.com/articles/aero-placement-and-mounting">Aero Placement and Mounting</a>.</p>
 
 <p><img src="/assets/images/aeroPlacement.jpg" alt="aeroPlacement" style="display:block; margin-left:auto; margin-right:auto" /></p>
-<p align="center"><font size="2" color="#00aaff"><i>Fig. 1 Pitch, roll, and heave</i></font></p>
+<p align="center"><font size="2" color="#00aaff"><i>Fig. 2 Pitch, roll, and heave</i></font></p>
 
 <p>From here I began finding the maximum pitch, roll, and heave values for EV5. After a discussion with the suspension subteam, we will not exceed 2deg of roll due to the addition of an anti-roll bar in both the front and rear. One value down.</p>
 
 <p>Heave is another easy one. Worst case scenario we assume maximum heave allowable by the suspension, which for our springs is 57mm/2=28.5mm to allow at least 1 inch of wheel travel in rebound and compression to satisfy FSAE Rules 2024 V.3.1.1.</p>
 
 <p><img src="/assets/images/travel.jpg" alt="V.3.1.1" style="display:block; margin-left:auto; margin-right:auto" /></p>
-<p align="center"><font size="2" color="#00aaff"><i>Fig. 1 V.3.1.1</i></font></p>
+<p align="center"><font size="2" color="#00aaff"><i>Fig. 3 V.3.1.1</i></font></p>
 
-<p>Dive and squat angles took a little while to calculate, though.</p>
+<p>Dive and squat angles took a little while to calculate, though. Firstly, we had to get a realistic value for our mu for our tires. The TTC had data for our slicks which is great, however under braking from 33.33mps we were pulling about 2.1G longitudinally (assuming no change in mu due to tire load sensitivity). Using intuition this was not correct.</p>
+
+<p>After some digging through the TTC Round 9 documentation (as well as previous tire data analysis experiences) I realized this was due to a correction factor of 0.66 that had to be multiplied to the raw data to achieve realistic results for mu. After re-calculating we were acheiving 1.7G longitduinally with aero and 1.05G longitudinally without aero which seemed much more realistic. 1500N of downforce and 500N of drag were assumed at 33.33mps based on other teams claimed full car L/D ratios.</p>
+
+<p>From here I was able to calculate the dive angle through basic kinematics.</p>
+
+<p><img src="/assets/images/FBD.jpeg" alt="FBD" /></p>
+<p align="center"><font size="2" color="#00aaff"><i>Fig. 4 FBD of EV5</i></font></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/assets/images/FBDcalcs.jpeg" alt="FBDcalcs" /></td>
+      <td><img src="/assets/images/excelCalculator.jpg" alt="excelCalculator" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<p align="center"><font size="2" color="#00aaff"><i>Table 1 Raw calculations (left) which I then transferred into an excel calculator (right)</i></font></p>
