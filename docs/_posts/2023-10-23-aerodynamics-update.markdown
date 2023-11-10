@@ -38,7 +38,7 @@ We generate a list of the power consumed for increasing Cl at L/D=2.4. Accumulat
 | 4.5 | 64.636 | 6.134
 | 4.6 | 64.597 | 6.180
 
-<p align = "center"><i>Excerpt taken from MATLAB output. Assumed efficiencies are as follows: controller=98%, accumulator=90%, drivetrain=87%, motors=95%. Total efficiency=72.90%. Estimated reference area (frontal area)=1.19m^2</i></p>
+<p align = "center" font size="-1"><i>Excerpt taken from MATLAB output. Assumed efficiencies are as follows: controller=98%, accumulator=90%, drivetrain=87%, motors=95%. Total efficiency=72.90%. Estimated reference area (frontal area)=1.19m^2</i></p>
 
 Now we have a set target of Cl=4.6 and Cd=1.92, or more useful ClA=5.47 and CdA=2.28 with A=1.19m^2. These are admittedly very high values, especially for a team pursuing aerodynamic devices for the first time. However, we at least now know our drag ceiling that we can't exceed out of fear of running out of energy before endurance ends. During design we will aim as high as we can go without exceeding the Cl and Cd threshold.
 
@@ -52,6 +52,6 @@ To simplify polar plot analysis, I made some preliminary assumptions based on th
 
 |  | Front Wing Primary Element | Front Wing Secondary Element | Rear Wing Primary Element | Rear Wing Secondary Element
 | Chord (mm) | 400 | 300 | 500 | 400
-| Re (-) | 352,856 | 264, 642 | 441,069 | 352,856
+| Re (-) | 352,856 | 264,642 | 441,069 | 352,856
 
-<p align = "center"><i>Air speed=13.33mps and NCrit=9 since it is commonly used. Dual-element front and rear wing as it seems like a balanced starting point between performance (i.e. slightly rear-biased center of pressure for medium-to-high speed stability), cost, and CFRP manufacturing time. More elements can be pursued if more downforce is required to hit the initial design target of Cl=4.6</i></p>
+<p align = "center"><i>Air speed=13.33mps and NCrit=9 since it is commonly used. More wing elements can be pursued if more downforce is required to hit the initial design target of Cl=4.6</i></p>
