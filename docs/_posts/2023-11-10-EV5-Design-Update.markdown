@@ -4,6 +4,8 @@ title:  "EV5 Design Update"
 date:   2023-11-10 02:52:00 -0400
 categories: jekyll update
 ---
+
+---
 # Multi-Element 2D Optimization
 After selecting our wing element profiles from [EV5 Aerodynamics Justification](https://pidduuu.github.io/jekyll/update/2023/10/23/EV5-Aerodynamics-Justification.html) I started optimizing the 2D placement of the wing elements, starting with the front wing.
 
