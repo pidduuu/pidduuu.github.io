@@ -76,5 +76,5 @@ The Eppler E423 was a clear choice for the FWPE, as it had nearly as high a Cl a
 
 | ![FWPE1](/assets/images/FWPE1.jpg) | ![FWPE2](/assets/images/FWPE2.jpg)
 
-<p align = "center"><font size = "2" color="purple"><i>S1223</i></font> <font size = "2" color="orange"><i>E423</i></font></p>
+<p align = "center"><font size = "2" color="purple"><i>S1223</i></font><font size = "2" color="#00aaff"><i>and</i></font><font size = "2" color="orange"><i>E423</i></font></p>
 
