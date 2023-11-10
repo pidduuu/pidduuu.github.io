@@ -45,8 +45,8 @@ With the wing setups optimized, I turned my attention to justifying and modellin
 Endplates are commonplace in race car aerodynamics, however I still wanted to quantify change in downforce and drag with and without endplates to be thorough. I want future members to understand why we are spending extra money and man power to manufacture endplates.
 
 |  | w/o Endplates | w/ Flat Endplates
+| Images | ![noEP](/assets/images/noEP.jpg) | ![EP](/assets/images/EP.jpg)
 | Cl (-) | -5.21 | -5.65
 | Cd (-) | 0.93 | 0.91
-| Images | ![noEP](/assets/images/noEP.jpg) | ![EP](/assets/images/EP.jpg)
 
-<p align = "center"><font size = "2" color="#00aaff"><i>Table 3 Rear wing velocity and pressure contour plots</i></font></p>
+<p align = "center"><font size = "2" color="#00aaff"><i>Table 3 Endplates vs. no endplates. Reduced flow mixing with endplates improves downforce and drag</i></font></p>
