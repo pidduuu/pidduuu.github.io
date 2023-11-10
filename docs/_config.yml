@@ -20,12 +20,12 @@
 
 title: Asad Soomro
 email: a.soomro072003@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: test>- # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  pidduuu
 linkedin_username:  asad-soomro
+github_username:  pidduuu
 
 # Build settings
 theme: minima
