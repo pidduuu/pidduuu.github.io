@@ -32,7 +32,7 @@ This graph alone doesn't provide us with the Cd*A constraint required to start p
 
 We generate a list of the power consumed per lap for increasing Cl at L/D=2.4. Accumulator size is 6.2kWh and we assume 2kWh of regen per lap, which is a safe assumption to make after a discussion with the powertrain subteam and their goal this season to implement regen.
 
-| Cl(-) | Lap Time (s)| Power(kWh)
+| Cl(-) | Lap Time (s) | Power(kWh)
 | ... | ... | ...
 | 4.3 | 64.716 | 6.069
 | 4.4 | 64.676 | 6.105
