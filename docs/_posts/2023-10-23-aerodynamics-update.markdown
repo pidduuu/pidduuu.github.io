@@ -54,6 +54,9 @@ Since we want to keep it simple, we decided not to pursue our own airfoil design
 
 To simplify polar plot analysis, I made some preliminary assumptions based on the aerodynamic bounding boxes from FSAE Rules 2024 V1 T.7.7.2.
 
+![T.7.7.2](/assets/images/T.7.7.2.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2"><i>Lap Time vs. Cl for Various L/D Ratios</i></font></p>
+
 |  | Front Wing Primary Element | Front Wing Secondary Element | Rear Wing Primary Element | Rear Wing Secondary Element
 | Chord (mm) | 400 | 300 | 500 | 400
 | Re (-) | 352,856 | 264,642 | 441,069 | 352,856
