@@ -30,14 +30,14 @@ Quantifying the change in performance in tires is important, but ensuring laptim
 <p align = "center"><i>Lap Time vs. Cl for Various L/D Ratios</i></p>
 This graph alone doesn't provide us with the Cd*A constraint required to start pursuing aerodynamic design. We also need to consider the fact that since the vehicle is electric, the energy density will be much lower than an ICE and ensuring minimal aerodynamic drag is essential to a successful design.
 
-We generate a list of the power consumed per lap for increasing Cl at L/D=2.4. Accumulator size is 6.2kWh and we assume 2kWh of regen per lap, which is a safe assumption to make after a discussion with the powertrain subteam and their goal this season to implement regen.
+We generate a list of the power consumed for increasing Cl at L/D=2.4. Accumulator size is 6.2kWh and we assume 2kWh of regen per lap, which is a safe assumption to make after a discussion with the powertrain subteam and their goal this season to implement regen.
 
 | Cl(-) | Lap Time (s) | Power(kWh)
-| ... | ... | ...
 | 4.3 | 64.716 | 6.069
 | 4.4 | 64.676 | 6.105
 | 4.5 | 64.636 | 6.134
 | 4.6 | 64.597 | 6.180
+
 <p align = "center"><i>Excerpt taken from MATLAB output. Assumed efficiencies are as follows: controller=98%, battery=90%, drivetrain=87%, motors=95%. Total efficiency=72.90%. Estimated reference area (frontal area)=1.19m^2</i></p>
 
 Now we have a set target of Cl=4.6 and Cd=1.92, or more useful ClA=5.47 and CdA=2.28. These are admittedly very high values, especially for a team pursuing aerodynamic devices for the first time. However, we at least now know our drag ceiling that we can't exceed out of fear of running out of energy before endurance ends. During design we will aim as high as we can go without exceeding the Cl and Cd threshold for the current vehicle concept.
