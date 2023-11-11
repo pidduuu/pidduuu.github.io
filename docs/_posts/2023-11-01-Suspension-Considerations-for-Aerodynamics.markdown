@@ -61,4 +61,4 @@ Now that we have the pitch, roll, and heave values, we can create a representati
 This prompted us to ask about the feasability of anti-dive geometry for EV5. After a breif discussion with the suspension subteam, 1.5deg of dive angle was achievable. Adjusting the effective ground clearance surface in the CAD to reflect this yielded encouraging results.
 
 ![FWground2](/assets/images/FWground2.png){:style="display:block; margin-left:auto; margin-right:auto"}
-<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 9 No interference with the ground with 1.5deg of dive, 2deg of roll, and 28.5mm of heave?</i></font></p>
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 9 No interference with the ground with 1.5deg of dive, 2deg of roll, and 28.5mm of heave</i></font></p>
