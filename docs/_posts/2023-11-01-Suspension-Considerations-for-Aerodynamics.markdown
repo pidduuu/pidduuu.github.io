@@ -71,9 +71,9 @@ At the time of making the model the suspension subteam was considering a double-
 
 Some simple radiators were also modelled based on the motor drive subteam's available design concept. Below are images of the final simplified model. Note that a driver has not yet been modelled, however it is in the works since it would definitely be a contributing factor to drag.
 
-![full1](/assets/images/full1.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
-![full2](/assets/images/full2.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
-![full3](/assets/images/full3.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
-![full4](/assets/images/full4.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
-![full5](/assets/images/full5.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+![full1](/assets/images/full1.JPG){:style="display:block; margin-left:auto; margin-right:auto"}
+![full2](/assets/images/full2.JPG){:style="display:block; margin-left:auto; margin-right:auto"}
+![full3](/assets/images/full3.JPG){:style="display:block; margin-left:auto; margin-right:auto"}
+![full4](/assets/images/full4.JPG){:style="display:block; margin-left:auto; margin-right:auto"}
+![full5](/assets/images/full5.JPG){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Figs. 10, 11, 12, 13, 14, and 15 Simplified full car model for Ansys meshing</i></font></p>
