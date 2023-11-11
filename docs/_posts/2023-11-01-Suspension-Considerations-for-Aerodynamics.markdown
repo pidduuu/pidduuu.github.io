@@ -65,6 +65,15 @@ This prompted us to ask about the feasability of anti-dive geometry for EV5. Aft
 
 ---
 # Full Car Model for Ansys
-Once I was satisfied with the ground clearance I began making a simplified full car model for external analysis in Ansys. At the time of creating the CAD model there was no suspension CAD done, so we just modelled some simple arms in place of it.
+Once I was satisfied with the ground clearance I began making a simplified full car model for external analysis in Ansys. This was so that we could rule out any un-necessary geometry (e.g. small electrical switches, coolant tubing, etc.) that could be considered negligible for external airflow analysis. At the time of creating the CAD model there was no suspension CAD done, so we just modelled some simple arms in place of it.
 
-At the time of making the model the suspension subteam was consdiering a double-wishbone pullrod system for the front, and double-wishbone pushrod system for the rear, so we modelled something to mimic that until they finalized their geometry and created a CAD model.
+At the time of making the model the suspension subteam was considering a double-wishbone pullrod system for the front, and double-wishbone pushrod system for the rear, so we modelled something to mimic that until they finalized their geometry and created a CAD model.
+
+Some simple radiators were also modelled based on the motor drive subteam's available design concept. Below are images of the final simplified model. Note that a driver has not yet been modelled, however it is in the works since it would definitely be a contributing factor to drag.
+
+![full1](/assets/images/full1.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+![full2](/assets/images/full2.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+![full3](/assets/images/full3.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+![full4](/assets/images/full4.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+![full5](/assets/images/full5.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Figs. 10, 11, 12, 13, 14, and 15 Simplified full car model for Ansys meshing</i></font></p>
