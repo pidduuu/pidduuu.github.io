@@ -58,11 +58,7 @@ Now that we have the pitch, roll, and heave values, we can create a representati
 ![FWground](/assets/images/FWground.png){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 8 The front wing fancies the ground</i></font></p>
 
-<<<<<<< HEAD
 This prompted us to ask about the feasability of anti-dive geometry for EV5. After a brief discussion with the suspension subteam, 1.5deg of dive angle was achievable. Adjusting the effective ground clearance surface in the CAD to reflect this yielded encouraging results.
-=======
-This prompted us to ask about the feasability of anti-dive geometry for EV5. After a breif discussion with the suspension subteam, 1.5deg of dive angle was deemed achievable. Adjusting the effective ground clearance surface in the CAD to reflect this yielded encouraging results.
->>>>>>> b6a5dd1e6d272562dadd583c5654378321dd1f0c
 
 ![FWground2](/assets/images/FWground2.png){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 9 No interference with the ground with 1.5deg of dive, 2deg of roll, and 28.5mm of heave</i></font></p>
