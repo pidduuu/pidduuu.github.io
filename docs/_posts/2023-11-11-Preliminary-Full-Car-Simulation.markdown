@@ -48,9 +48,17 @@ So we can say we gained about a 1/4 of an inch to enlarge the front wing. That m
 **P.S.** the only reason we aren't curving our primary element for additional ground clearance is because we are restricted by our manufacturing method which can be viewed in [this video](https://www.youtube.com/watch?v=jsT561opKrU&t=321s&ab_channel=EasyCompositesLtd). We don't have time (or money) to currently make a hot wire cutter this year so we're waterjetting our foam profiles instead. We will eventually be able to pursue tapered geometry once we [build a 3 axis CNC hot wire foam cutter](https://howtomechatronics.com/projects/arduino-cnc-foam-cutting-machine/) which sounds like a summer of 2024 project.
 
 ---
-# Areas to Improve the Design of the Wings
+# Areas to Improve the Design of the Wings, Adjusted Design Targets
+On top of enlarging the front wing we should pursue a third element on the front wing using the higher bounding box inboard of the front tires, as can be seen in FSAE Rules 2024 T.7.7.2.
 
+![largerFW](/assets/images/largerFW.PNG){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 6 Can add a third front wing element inside the bounding box highlighted in T.7.7.2</i></font></p>
 
+We also still have a lot of room to enlarge the rear wing, even with the main roll hoop design this year being tilted 10deg rearwards. The MRH will most likely also be moving forwards by about 10-15mm in the next week which should give us even more space to enlarge the rear wing and potentially add a third element to keep the center of pressure as neutral as possible.
 
+![RWroom](/assets/images/RWroom.PNG){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 7 Can move the rear wing downwards and add a third element. Beam wing is also possible however might not be effective without a diffuser</i></font></p>
 
+Initially our target was a L/D=2.4 and Cl=4.6. That's looking less likely now that we have a better idea of what our wings are capable of. Our goal is to now achieve a L/D=1.6 or greater so we can actually plot our vehicle on the graph we generated in [Justification for Aerodynamics](https://pidduuu.github.io/jekyll/update/2023/10/01/Justification-for-Aerodynamics.html).
 
+Design freeze is December 10th, internal CAD review is tomorrow. Lots to do, high targets to hit, but we can do it.
