@@ -58,7 +58,17 @@ Now that we have the pitch, roll, and heave values, we can create a representati
 ![FWground](/assets/images/FWground.png){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 8 The front wing fancies the ground</i></font></p>
 
+<<<<<<< HEAD
 This prompted us to ask about the feasability of anti-dive geometry for EV5. After a brief discussion with the suspension subteam, 1.5deg of dive angle was achievable. Adjusting the effective ground clearance surface in the CAD to reflect this yielded encouraging results.
+=======
+This prompted us to ask about the feasability of anti-dive geometry for EV5. After a breif discussion with the suspension subteam, 1.5deg of dive angle was deemed achievable. Adjusting the effective ground clearance surface in the CAD to reflect this yielded encouraging results.
+>>>>>>> b6a5dd1e6d272562dadd583c5654378321dd1f0c
 
 ![FWground2](/assets/images/FWground2.png){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 9 No interference with the ground with 1.5deg of dive, 2deg of roll, and 28.5mm of heave</i></font></p>
+
+---
+# Full Car Model for Ansys
+Once I was satisfied with the ground clearance I began making a simplified full car model for external analysis in Ansys. At the time of creating the CAD model there was no suspension CAD done, so we just modelled some simple arms in place of it.
+
+At the time of making the model the suspension subteam was consdiering a double-wishbone pullrod system for the front, and double-wishbone pushrod system for the rear, so we modelled something to mimic that until they finalized their geometry and created a CAD model.
