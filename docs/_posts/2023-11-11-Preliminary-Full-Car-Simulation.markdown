@@ -61,4 +61,4 @@ We also still have a lot of room to enlarge the rear wing, even with the main ro
 
 Initially our target was a L/D=2.4 and Cl=4.6. That's looking less likely now that we have a better idea of what our wings are capable of. Our goal is to now achieve a L/D=1.6 or greater so we can actually plot our vehicle on the graph we generated in [Justification for Aerodynamics](https://pidduuu.github.io/jekyll/update/2023/10/01/Justification-for-Aerodynamics.html).
 
-Design freeze is December 10th, internal CAD review is tomorrow. Lots to do, high targets to hit, but we can do it.
+Design freeze is December 10th, preliminary CAD deadline is tomorrow. Lots to do, high targets to hit, but we can do it.
