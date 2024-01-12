@@ -27,5 +27,3 @@ placeholder
 ---
 # Personal Reflections
 placeholder
-
-**Lessons learned:**
