@@ -8,29 +8,24 @@ With design coming to a close for EV5, I've certainly learned a lot about aerody
 
 ---
 # Design Review 1: Meeting Danny
-
-
+placeholder
 
 **Lessons learned:**
 
 ---
 # Design Review 2: Internal Design Review
-
+placeholder
 
 **Lessons learned:**
 
 ---
 # Design Review 3: Danny Returns
-
-
-
+placeholder
 
 **Lessons learned:**
 
 ---
 # Personal Reflections
-
-
-
+placeholder
 
 **Lessons learned:**

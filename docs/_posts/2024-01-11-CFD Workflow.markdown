@@ -8,15 +8,16 @@ I want to get more into the specific CFD workflow the team and I have been follo
 
 ---
 # Geometry Cleanup in Ansys SpaceClaim
-
+placeholder
 
 ---
 # Meshing and Mesh Sensitivity Studies
-
+placeholder
 
 ---
 # Solver Setup and Solution
-
+placeholder
 
 ---
 # Post-Processing and Data Analysis
+placeholder
