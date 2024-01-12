@@ -7,7 +7,7 @@ categories: jekyll update
 With design coming to a close for EV5, I've certainly learned a lot about aerodynamic design and design project management. This post aims to recap the 3 design reviews we have had this past season and summarize the lessons learned.
 
 ---
-# Design Review 1: Meeting Danny
+# Design Review 1: Meeting Danny Jierian
 placeholder
 
 **Lessons learned:**
