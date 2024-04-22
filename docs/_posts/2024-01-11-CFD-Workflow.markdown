@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CFD Workflow"
-date:   2024-04-22 07:42:00 -0400
+date:   2024-04-21 07:42:00 -0400
 categories: jekyll update
 ---
 I want to get more into the specific CFD workflow the team and I have been following this season. The following serves as a blend of business casual documentation, and a tutorial for future members of the team.
