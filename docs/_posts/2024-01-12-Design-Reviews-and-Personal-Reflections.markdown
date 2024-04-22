@@ -86,7 +86,7 @@ After showing him our internal design review slides, and our brief foray into fr
 The front canards have 3 functions this year: generate downforce, shift the CoP forward, and mitigate the top left front tire vorticy (vortex 4 in the image below).
 
 ![wheelVorticies](/assets/images/wheelVorticies.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
-<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 3 FBD showing all forces taken into consideration in MATLAB script. Image courtesy of Sepehr Makarian Abdolahi</i></font></p>
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 3 All voritcies that come off a moving wheel</i></font></p>
 
 The concept is good, however it would require additional work to prove which we hadn't done yet. Individual simulations would have to be run with and without the front canard, while analyzing the turbulent kinetic energy coming off that top left corner of the wheel. If the turbulent kinetic energy goes down with the front canard in the model, then that might be a good starting point for justifying the canard. In general, he did like that we were placing an airfoil in an empty spot to get more downforce since [FSAE cars are more sensitive to downforce than drag](https://pidduuu.github.io/jekyll/update/2023/10/01/Justification-for-Aerodynamics.html).
 
