@@ -52,7 +52,26 @@
 <p><img src="/assets/images/FWground.png" alt="FWground" style="display:block; margin-left:auto; margin-right:auto" /></p>
 <p align="center"><font size="2" color="#00aaff"><i>Fig. 8 The front wing fancies the ground</i></font></p>
 
-<p>This prompted us to ask about the feasability of anti-dive geometry for EV5. After a breif discussion with the suspension subteam, 1.5deg of dive angle was achievable. Adjusting the effective ground clearance surface in the CAD to reflect this yielded encouraging results.</p>
+<p>This prompted us to ask about the feasability of anti-dive geometry for EV5. After a brief discussion with the suspension subteam, 1.5deg of dive angle was achievable. Adjusting the effective ground clearance surface in the CAD to reflect this yielded encouraging results, along with reducing the chord and secondary element AoA of the front wing.</p>
 
 <p><img src="/assets/images/FWground2.png" alt="FWground2" style="display:block; margin-left:auto; margin-right:auto" /></p>
 <p align="center"><font size="2" color="#00aaff"><i>Fig. 9 No interference with the ground with 1.5deg of dive, 2deg of roll, and 28.5mm of heave</i></font></p>
+
+<hr />
+<h1 id="full-car-model-for-ansys">Full Car Model for Ansys</h1>
+<p>Once I was satisfied with the ground clearance I began making a simplified full car model for external analysis in Ansys. This was so that we could rule out any un-necessary geometry (e.g. small electrical switches, coolant tubing, etc.) that could be considered negligible for external airflow analysis. At the time of creating the CAD model there was no suspension CAD done, so we just modelled some simple arms in place of it.</p>
+
+<p>At the time of making the model the suspension subteam was considering a double-wishbone pullrod system for the front, and double-wishbone pushrod system for the rear, so we modelled something to mimic that until they finalized their geometry and created a CAD model.</p>
+
+<p>Some simple radiators were also modelled based on the motor drive subteam’s available design concept. Below are images of the final simplified model. Note that a driver has not yet been modelled, however it is in the works since it would definitely be a contributing factor to drag.</p>
+
+<p><img src="/assets/images/full1.JPG" alt="full1" style="display:block; margin-left:auto; margin-right:auto" /></p>
+
+<p><img src="/assets/images/full2.JPG" alt="full2" style="display:block; margin-left:auto; margin-right:auto" /></p>
+
+<p><img src="/assets/images/full3.JPG" alt="full3" style="display:block; margin-left:auto; margin-right:auto" /></p>
+
+<p><img src="/assets/images/full4.JPG" alt="full4" style="display:block; margin-left:auto; margin-right:auto" /></p>
+
+<p><img src="/assets/images/full5.JPG" alt="full5" style="display:block; margin-left:auto; margin-right:auto" /></p>
+<p align="center"><font size="2" color="#00aaff"><i>Figs. 10, 11, 12, 13, 14, and 15 Simplified full car model for Ansys meshing</i></font></p>
