@@ -10,13 +10,23 @@ The following serves as an in-depth tutorial for MAC Formula Electric. I hope th
 
 ---
 # airset
-Go to [airfoiltools.com](http://airfoiltools.com/) and find your profile(s) of preference.
+Go to [airfoiltools.com](http://airfoiltools.com/) and find your profile(s) of preference. Download the "Selig format dat file" for each profile you will be using. For this tutorial, I will be creating an arbitrary dual-element setup using 2 S1223 profiles.
+
+Save the file in the same folder as your MSES installation.
 
 ![s1223](/assets/images/s1223.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 1 Selig S1223</i></font></p>
 
-Download 
+![seligdatfile](/assets/images/seligdatfile.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 2 Storing seligdatfile in the directory with all MSES programs</i></font></p>
 
+Open airset.
+
+![airset](/assets/images/airset.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 3 airset</i></font></p>
+
+![airset1](/assets/images/airset1.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 4 airset menu</i></font></p>
 
 
 After FSAE Michigan EV 2023 I was informed from [Jordan Van Dam](https://www.linkedin.com/in/jordanvandam/) (thermal management wizard) of the existence of [Danny Jierian](https://www.linkedin.com/in/danny-jierian/) (professional thermal management wizard) who turned out to be one of the most influential factors in the development of EV5's aerodynamics package.
