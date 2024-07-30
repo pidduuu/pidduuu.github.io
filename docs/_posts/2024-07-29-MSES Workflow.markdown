@@ -161,12 +161,53 @@ From [Justification for Aerodynamics](https://pidduuu.github.io/jekyll/update/20
 ![msesmach](/assets/images/msesmach.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 27 Inputting Mach number into "mses" file</i></font></p>
 
-bleh :P
+When calculating Reynolds number, use the chord length of the **scaled up** airfoil setup as your reference length. In order to do this, we will need to create a copy of "blade" and modify it so that we can import it into SOLIDWORKS.
 
+Make a copy of "blade" and name it "solidworks."
 
+![sw](/assets/images/sw.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 28 Coordinate file we will use for SOLIDWORKS</i></font></p>
 
+Copy and paste everything from "solidworks" into [TXTformat](https://txtformat.com/).
 
+![txtformat](/assets/images/txtformat.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 29 Using TXTformat to get coordinate file ready for importing into SOLIDWORKS</i></font></p>
 
+Delete the first 2 rows, and use the "Trim" tool to trim the first 6 characters of each line.
+
+![txt1](/assets/images/txt1.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 30 Your TXTformat should look like this</i></font></p>
+
+Scroll through and find the line which contains "999.0" and delete it.
+
+![y](/assets/images/y.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 31 Before deleting 999.0</i></font></p>
+
+![y1](/assets/images/y1.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 32 After deleting 999.0</i></font></p>
+
+Use the "Replace" tool to replace "     " (5 spaces) with ", " (1 comma, 1 space). Use "Replace" again to replace "    -" (4 spaces, 1 negative sign) with ", -" (1 comma, 1 space, 1 negative sign).
+
+![txt2](/assets/images/txt2.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 33 Your TXTformat should look like this</i></font></p>
+
+Use the "Add" tool to add ", 0" (1 comma, 1 space, one 0) to the **end** of each line.
+
+![txt3](/assets/images/txt3.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 34 Your TXTformat should look like this</i></font></p>
+
+Make a new notepad file, name it "solidworks1" and copy and paste your formatted text into it. Save "solidworks1" to your project folder. Be sure to save it as a .txt file.
+
+![sw1](/assets/images/sw1.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 35 solidworks1 contents</i></font></p>
+
+![sw1yeah](/assets/images/sw1yeah.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 36 solidworks1 directory</i></font></p>
+
+Within "solidworks1" find the coordinate which differentiates your elements. This can be easily identified by a large change in the x-coordinate. Make an empty line there.
+
+![xcoord](/assets/images/xcoord.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 37 Large jumps in x-coordinate indicate a new element. Add an empty line between the 2 coordinates</i></font></p>
 
 
 
