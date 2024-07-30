@@ -98,3 +98,82 @@ You can now close the airset terminal.
 ---
 # mset
 
+Open mset.
+
+![mset](/assets/images/mset.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 17 Open mset</i></font></p>
+
+You will be greeted with a menu of 16 commands. Each command is issued with the associated number.
+
+![cmds](/assets/images/cmds.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 18 mset commands</i></font></p>
+
+Command 1 is used to specify an AoA of the **entire setup**. Considering the AoA of each element was already setup using airset, it's quite rare you want to change the full setup AoA (but there is a chance you might want to, for some reason).
+
+For now, I'm going to use the AoAs specified in airset.
+
+Type "1" and hit enter. Enter your desired setup AoA, and hit enter. A GUI should pop up which looks like the one below.
+
+![setupaoa](/assets/images/setupaoa.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 19 Entering full setup AoA</i></font></p>
+
+![streamlines](/assets/images/streamlines.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 20 Streamlines</i></font></p>
+
+Type "2" to generate the grid (aka mesh). It will ask you if you are okay with the current mesh shown in the GUI. The generated meshes are usually very good, however if you run into problems/unrealistic values in your solution later on, it would be a good idea to re-visit this step.
+
+Hit enter for each element after you have checked the grid.
+
+![grid](/assets/images/grid.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 21 Grid generation</i></font></p>
+
+![e1grid](/assets/images/e1grid.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 22 GUI showing the generated grid. The generated grid is usually good enough for a very accurate solution</i></font></p>
+
+Type "3" and hit enter to smooth the grid.
+
+![gridsmooth](/assets/images/gridsmooth.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 23 Smoothing the grid to be easily computed during the solution</i></font></p>
+
+Type "4" and hit enter to generate the "mdat" file. This is the file which stores your final solution.
+
+Type "14" and hit enter to generate the "mses" file. This file contains boundary conditions for your simulation. The ones which concern us are the Mach number and Reynolds number.
+
+Find "mses" in your project folder (the file, not the program) and open it with notepad.
+
+![mses](/assets/images/mses.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 24 Generated mses file</i></font></p>
+
+You should see the following in notepad. We are mainly concerned with changing our "MACHin" and "REYNin" variables to what we want.
+
+![msesvar](/assets/images/msesvar.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 25 MACHin and REYNin</i></font></p>
+
+You might be wondering why it takes in the Mach number to begin with. When it comes to aircraft, the air flowing over the low pressure side of an airfoil could well exceed Mach 1, despite the incoming freestream air being below Mach 1. High Mach numbers introduce compressibility effects, shock waves, and drastic changes in the fluid properties. Reynold's number alone won't capture these phenomenon, which is why the "mses" file asks for it.
+
+For FSAE, the Mach number is entirely irrelevant to the numerical solution, however we are still going to calculate it and input it into our "mses" file for our own knowledge.
+
+From [Justification for Aerodynamics](https://pidduuu.github.io/jekyll/update/2023/10/01/Justification-for-Aerodynamics.html) we already determined the average FSAE cornering speed is 13.33mps. Inputting this into a [Mach number calculator](https://www.omnicalculator.com/physics/mach-number) with [SATP](https://www.techtarget.com/whatis/definition/standard-temperature-and-pressure-STP#:~:text=Like%20STP%20and%20NTP%2C%20standard,%3A%201%20atm%20(101.325%20kPa)) taken into account for air temperature, we get Mach=0.04334. Input this value into "mses."
+
+![machnum](/assets/images/machnum.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 26 Mach number calculation</i></font></p>
+
+![msesmach](/assets/images/msesmach.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 27 Inputting Mach number into "mses" file</i></font></p>
+
+bleh :P
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
