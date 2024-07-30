@@ -36,7 +36,7 @@ Type "Adde" and hit enter to add the first profile to your setup. Type in the na
 ![gui](/assets/images/gui.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 6 GUI of airfoil</i></font></p>
 
-We are now in the .Posi menu, which can be seen in Figure 3. Type "R" and hit enter to re-size your GUI if it does not sit nicely on your screen.
+We are now in the .POSI menu, which can be seen in Figure 3. Type "R" and hit enter to re-size your GUI if it does not sit nicely on your screen.
 
 ![gui1](/assets/images/gui1.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 7 Re-sized GUI</i></font></p>
@@ -54,7 +54,7 @@ Once you are happy with your primary element's AoA, hit enter. You may now enter
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 9 Second element</i></font></p>
 
 ![2elements](/assets/images/2elements.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
-<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 10 2 elements on the GUI</i></font></p>
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 10 2 elements in the GUI</i></font></p>
 
 Now, type "M" to move it to your desired coordinate. Type in your X and Y coordinates as shown below, and hit enter.
 
@@ -66,5 +66,35 @@ Now, type "M" to move it to your desired coordinate. Type in your X and Y coordi
 
 I'm going to change the AoA of the second element to +30deg using "A."
 
+![AoA2](/assets/images/AoA2.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 13 AoA to 30deg</i></font></p>
 
+![AoA3](/assets/images/AoA3.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 14 AoA updated in GUI</i></font></p>
+
+If you want to scale it down, type "S" and type in your scaling about the element's point. I highly recommend uniform scaling so you don't morph the established profile into some other shape you don't want.
+
+![scale](/assets/images/scale.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 15 Scaling second element down to desired size</i></font></p>
+
+Once you are happy with your second element, you can hit enter again and continue using the commands in .POSI to add as many elements as you would like.
+
+Once you are done setting up your airfoils, hit enter twice to get back to the airset menu. Note, that in any menu, you can type "?" to view a list of commands.
+
+Once back in airset, type "Save" to save your airfoil setup. Enter "blade" as the filename. If it is anything other than blade it will not work, and at the current point in time I'm not sure why.
+
+Just type "blade" and hit enter.
+
+![blade](/assets/images/blade.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 16 Always make the filename "blade"</i></font></p>
+
+You can now close the airset terminal.
+
+**Section summary**
+- Download the "Selig format dat file" for your profile(s) from airfoiltools.com
+- Use airset and it's list of commands to add and modify your airfoil geometry as you see fit
+- When saving your airfoil setup, name it "blade"
+
+---
+# mset
 
