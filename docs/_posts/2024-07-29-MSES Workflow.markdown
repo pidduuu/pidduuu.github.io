@@ -153,7 +153,7 @@ You might be wondering why it takes in the Mach number to begin with. When it co
 
 For FSAE, the Mach number is entirely irrelevant to the numerical solution, however we are still going to calculate it and input it into our "mses" file for our own knowledge.
 
-From [Justification for Aerodynamics](https://pidduuu.github.io/jekyll/update/2023/10/01/Justification-for-Aerodynamics.html) we already determined the average FSAE cornering speed is 13.33mps. Inputting this into a [Mach number calculator](https://www.omnicalculator.com/physics/mach-number) with [SATP](https://www.techtarget.com/whatis/definition/standard-temperature-and-pressure-STP#:~:text=Like%20STP%20and%20NTP%2C%20standard,%3A%201%20atm%20(101.325%20kPa)) taken into account for air temperature, we get Mach=0.04334. Input this value into "mses."
+From [Justification for Aerodynamics](https://pidduuu.github.io/jekyll/update/2023/10/01/Justification-for-Aerodynamics.html) we already determined the average FSAE cornering speed is 13.33mps. I'm going to use 15mps since it is a nicer number. Inputting this into a [Mach number calculator](https://www.omnicalculator.com/physics/mach-number) with [SATP](https://www.techtarget.com/whatis/definition/standard-temperature-and-pressure-STP#:~:text=Like%20STP%20and%20NTP%2C%20standard,%3A%201%20atm%20(101.325%20kPa)) taken into account for air temperature, we get Mach=0.04334. Input this value into "mses."
 
 ![machnum](/assets/images/machnum.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 26 Mach number calculation</i></font></p>
