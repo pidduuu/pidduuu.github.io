@@ -52,3 +52,19 @@ Once you are happy with your primary element's AoA, hit enter. You may now enter
 
 ![element2](/assets/images/element2.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 9 Second element</i></font></p>
+
+![2elements](/assets/images/2elements.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 10 2 elements on the GUI</i></font></p>
+
+Now, type "M" to move it to your desired coordinate. Type in your X and Y coordinates as shown below, and hit enter.
+
+![coords](/assets/images/coords.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 11 "M" command</i></font></p>
+
+![coordsGUI](/assets/images/coordsGUI.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 12 Secondary element moved to desired coordinates</i></font></p>
+
+I'm going to change the AoA of the second element to +30deg using "A."
+
+
+
