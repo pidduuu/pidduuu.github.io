@@ -77,7 +77,7 @@ If you want to scale it down, type "S" and type in your scaling about the elemen
 ![scale](/assets/images/scale.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 15 Scaling second element down to desired size</i></font></p>
 
-Once you are happy with your second element, you can hit enter again type in the filename of another profile to continue adding airfoils to your setup.
+Once you are happy with your second element, you can hit enter again and type in the filename of another profile to continue adding airfoils to your setup.
 
 Once you are done setting up your airfoils, hit enter twice to get back to the airset menu. Note, that in any menu, you can type "?" to view a list of commands.
 
