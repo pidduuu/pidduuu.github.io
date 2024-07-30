@@ -4,7 +4,7 @@ title:  "MSES to SOLIDWORKS"
 date:   2024-07-29 07:46:00 -0400
 categories: jekyll update
 ---
-2D Panel-based methods are far superior to traditional commercial CFD solvers when it comes to numerical accuracy and solution speed. XFOIL and MSES have the added benefit of not having to worry about correct fluid domain sizing and grid refinement. What one student could do in 30 minutes with a commercial solver, the other can do in 3. [Mark](https://aeroastro.mit.edu/people/mark-drela/), I thank you for your genius.
+2D panel-based methods are far superior to traditional commercial CFD solvers when it comes to numerical accuracy and solution speed. XFOIL and MSES have the added benefit of not having to worry about correct fluid domain sizing and grid refinement. What one student could do in 30 minutes with a commercial solver, the other can do in 3. [Mark](https://aeroastro.mit.edu/people/mark-drela/), I thank you for your genius.
 
 The following serves as an in-depth tutorial for MAC Formula Electric. I hope this makes it clear how to make effective and efficient use of the software.
 
