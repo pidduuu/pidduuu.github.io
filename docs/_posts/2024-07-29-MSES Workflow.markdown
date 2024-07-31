@@ -209,9 +209,33 @@ Within "solidworks1" find the coordinate which differentiates your elements. Thi
 ![xcoord](/assets/images/xcoord.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 37 Large jumps in x-coordinate indicate a new element. Add an empty line between the 2 coordinates</i></font></p>
 
+Make a new .txt file in notepad called "element1" and copy and paste the coordinates of the first element. Save the file to your project directory. Repeat this step for every element you have.
 
+![e12](/assets/images/e12.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 38 Coordinate files for elements 1 and 2. Repeat for as many elements as you have in your setup</i></font></p>
 
+Open SOLIDWORKS and make a new part file called "wing." Navigate to Insert --> Curve --> Curve Through XYZ Points.
 
+![xyz](/assets/images/xyz.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 39 Tool used to insert airfoil coordinates</i></font></p>
+
+![curve1](/assets/images/curve1.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 40 XYZ Curves menu</i></font></p>
+
+Click "Browse..." and find your first element file. Make sure to set the search restriction to text files in your file explorer window.
+
+Open "element1" then click "OK."
+
+![insert](/assets/images/insert.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 41 Inserting first element</i></font></p>
+
+![swe1](/assets/images/swe1.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 42 Inserted first element into SOLIDWORKS</i></font></p>
+
+Repeat for all the remaining elements.
+
+![swe2](/assets/images/swe2.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 43 Full wing setup in SOLIDWORKS</i></font></p>
 
 
 
