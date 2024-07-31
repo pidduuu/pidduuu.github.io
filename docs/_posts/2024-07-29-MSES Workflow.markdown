@@ -232,10 +232,58 @@ Open "element1" then click "OK."
 ![swe1](/assets/images/swe1.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 42 Inserted first element into SOLIDWORKS</i></font></p>
 
-Repeat for all the remaining elements.
+Repeat for all remaining elements.
 
 ![swe2](/assets/images/swe2.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 43 Full wing setup in SOLIDWORKS</i></font></p>
+
+Make a new sketch on the front plane and draw a horizontal centerline at the origin. Convert the curves to sketches, and mirror them about the centerline. Make sure to uncheck "copy" before you mirror the sketches, otherwise you will get errors.
+
+![mirror](/assets/images/mirror.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 44 Mirrored wing setup</i></font></p>
+
+Hide the curves, and delete the centerline. Navigate to Tools --> Blocks --> Make and turn the entire sketch into a block.
+
+![mkblk](/assets/images/mkblk.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 45 Make a block</i></font></p>
+
+![blk](/assets/images/blk.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 46 Block</i></font></p>
+
+Left click on the block in the SOLIDWORKS GUI, and you should see a menu pop up on the left. Change "Block Scale" to the desired scale.
+
+For example, if I wanted the primary element's chord length to be 500mm, I will enter a scale factor of 500.
+
+Exit the sketch.
+
+Make a new sketch on the front plane, and convert the block to a sketch as shown below.
+
+![s2](/assets/images/s2.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 47 Converting block to a sketch</i></font></p>
+
+Hide the old sketch (the one which contains the block in it). Define the chord length of element 1 (which MACFE aerodynamics should already know how to do!) and draw a line from the first element's leading edge to the last element's trailing edge. Measure the distance of this line. This is the **global chord length** of the wing.
+
+![globalchord](/assets/images/globalchord.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 48 Global chord length of wing</i></font></p>
+
+Save the solidworks file, and close it.
+
+We are now going to use this global chord length to calculate the Reynolds number of our wing.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
