@@ -244,7 +244,7 @@ Make a new sketch on the front plane and draw a horizontal centerline at the ori
 
 Hide the curves, and delete the centerline. Navigate to Tools --> Blocks --> Make and turn the entire sketch into a block.
 
-![mkblk](/assets/images/mkblk.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+![mkblck](/assets/images/mkblck.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 45 Make a block</i></font></p>
 
 ![blk](/assets/images/blk.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
