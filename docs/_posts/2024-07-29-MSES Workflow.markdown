@@ -282,11 +282,44 @@ Input this into the "mses" file.
 
 Save and close the "mses" file.
 
+**Section summary**
+- Use "mset" to generate your mesh, and your "mdat" and "mses" files
+- Calculate "MACHin" using inlet velocity
+- Calculate "REYNin" using inlet velocity and global chord length, which you get from the scaled up wing in SOLIDWORKS
 
+---
+# makespecfile
 
+Open "makespecfile."
 
+![msf](/assets/images/msf.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 51 makespecfile</i></font></p>
 
+Hit enter when prompted to enter an extension. Type "5" and hit enter. Enter the full setup AoA twice (for this tutorial, the full setup AoA is 0deg). Enter "0.1" for the "delta parameter value." The program should automatically close.
 
+![msfvalues](/assets/images/msfvalues.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 52 Values to enter into makespecfile</i></font></p>
+
+---
+# mses
+
+Open "mses."
+
+![msesapp](/assets/images/msesapp.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 53 Open mses (the application, not the file!)</i></font></p>
+
+When prompted to enter the number of iterations, enter 50. The program should run for 50 iterations. Close the program after it is done running.
+
+![iter](/assets/images/iter.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 54 Run mses for 50 iterations</i></font></p>
+
+---
+# mpolar
+
+Open "mpolar." The program should run then close.
+
+![mpolar](/assets/images/mpolar.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 55 mpolar</i></font></p>
 
 
 
