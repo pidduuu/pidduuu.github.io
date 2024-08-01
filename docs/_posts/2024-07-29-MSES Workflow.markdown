@@ -261,16 +261,26 @@ Make a new sketch on the front plane, and convert the block to a sketch as shown
 ![s2](/assets/images/s2.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 47 Converting block to a sketch</i></font></p>
 
-Hide the old sketch (the one which contains the block in it). Define the chord length of element 1 (which MACFE aerodynamics should already know how to do!) and draw a line from the first element's leading edge to the last element's trailing edge. Measure the distance of this line. This is the **global chord length** of the wing.
+Hide the old sketch (the one which contains the block in it). Define the chord length of element 1 (which MACFE aerodynamics people should already know how to do!) and draw a line from the first element's leading edge to the last element's trailing edge. Measure the distance of this line. This is the **global chord length** of the wing.
 
 ![globalchord](/assets/images/globalchord.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 48 Global chord length of wing</i></font></p>
 
-Save the solidworks file, and close it.
+Save the part file, and close it.
 
 We are now going to use this global chord length to calculate the Reynolds number of our wing.
 
+Go to [Reynolds number calculator](http://airfoiltools.com/calculator/reynoldsnumber) and calculate Reynolds number under SATP. Below is the Reynolds number of the wing setup I am using for this tutorial.
 
+![reyn](/assets/images/reyn.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 49 Reynolds number of wing setup</i></font></p>
+
+Input this into the "mses" file.
+
+![reynin](/assets/images/reynin.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 50 REYNin</i></font></p>
+
+Save and close the "mses" file.
 
 
 
