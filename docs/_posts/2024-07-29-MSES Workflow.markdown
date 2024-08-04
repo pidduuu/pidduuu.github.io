@@ -322,7 +322,7 @@ Open "mpolar." The program should run then close.
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 55 mpolar</i></font></p>
 
 ---
-# mpolar
+# mplot
 
 Open "mplot."
 
