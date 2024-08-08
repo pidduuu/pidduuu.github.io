@@ -9,7 +9,7 @@ MSES did not want to plot results for cases with large amounts of flow separatio
 
 Below is the new 2D CFD workflow MACFE will follow, and it uses unstructured meshes. Included in this article is the error between structured and unstructured meshes and [Selig's experimental data](https://m-selig.ae.illinois.edu/pd.html).
 
-This one is less of a tutorial, more of a guide. 
+This one is less of a tutorial, more of a guide. Hope it helps.
 
 ---
 # Geometry
@@ -18,9 +18,9 @@ Not using fluent meshing for this workflow since fluent currently does not suppo
 ![module](/assets/images/module.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 1 Non-fluent meshing</i></font></p>
 
-Import geometry as .STEP file, change analysis type to 2D, and open in Spaceclaim. Fluid domain should be 15 chord lengths from the wing in all directions except the outlet. The outlet should be 30 chord lengths away from the airfoil. This is based on personal experimentation working well when lining up with the wind tunnel data.
+Import geometry as .STEP file, change analysis type to 2D, and open in Spaceclaim. Fluid domain should be 6 chord lengths from the wing in all directions except the outlet. The outlet should be 12 chord lengths away from the airfoil. This is based on personal experimentation working well when comparing with wind tunnel data.
 
-Nearfield should be 5 chord lengths from wing. Extends to outlet. Farfield should be 10 chord lengths from wing. Extends to outlet.
+Nearfield should be 2 chord lengths from wing. Extends to outlet. Farfield should be 4 chord lengths from wing. Extends to outlet.
 
 **Note:** make sure to use the global chord length for multi-element setups. For this walkthrough I'm using single element since I need to compare it to wind tunnel data at the end.
 
@@ -50,12 +50,12 @@ Insert the "Inflation" task and enter your y+.
 ![inflation](/assets/images/inflation.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 5 Inflation layers for wing</i></font></p>
 
-Insert edge sizing for wing. For a half meter wing, around 250 divisions is good. In general, try to use as many divisions as possible before your mesh becomes too fine and your solution starts to break down (it will break down when using coupled solvers with non-negligible viscous effects).
+Insert edge sizing for wing. For a half meter wing, around 200 divisions is good. In general, try to use as many divisions as possible before your mesh becomes too fine and your solution starts to break down (it will break down when using coupled solvers with non-negligible viscous effects).
 
 ![eswing](/assets/images/eswing.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 6 Edge sizing for wing</i></font></p>
 
-Insert face sizings for nearfield, farfield, and the fluid domain. I found 4, 16, and 64mm worked well respectively, however this is just a guide. Do your own mesh sensitivity studies, **always**.
+Insert face sizings for the nearfield, farfield, and the rest of the mesh. I found 4, 16, and 64mm worked well respectively, however this is just a guide. Do your own mesh sensitivity studies, **always**.
 
 ![boi1](/assets/images/boi1.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 7 Nearfield sizing</i></font></p>
@@ -63,10 +63,15 @@ Insert face sizings for nearfield, farfield, and the fluid domain. I found 4, 16
 ![boi2](/assets/images/boi2.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 8 Farfield sizing</i></font></p>
 
-![fluid](/assets/images/fluid.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
-<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 9 Fluid sizing</i></font></p>
+Set your target skewness. I'm going for 0.5 which, again, I've found to work well for getting accurate data.
 
-Generate your mesh. This will take 3-15 minutes depending on your hardware. If it takes long than that, get better hardware.
+![skewdef](/assets/images/skewdef.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 9 Definition of skewness from Ansys documentation</i></font></p>
+
+![skewtarget](/assets/images/skewtarget.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 10 Setting target skewness under "Mesh --> Quality --> Target Skewness"</i></font></p>
+
+Generate your mesh. This will take 3-15 minutes depending on your hardware. If it takes longer than that, get better hardware.
 
 
 
