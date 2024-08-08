@@ -34,7 +34,7 @@ Create your named selections accordingly.
 
 ---
 # Mesh
-Insert "All Triangles Method." This is the basis of our undstructured mesh. Triangles have been proven to work better around curved geometry in rectangular domains, compared to traditional square cells. Skewed squares near the trailing edge really threw off results in my experiments. Triangles handle it better.
+Insert "All Triangles Method." This is the basis of our unstructured mesh. Triangles have been proven to work better around curved geometry in rectangular domains, compared to traditional square cells. Skewed squares near the trailing edge really threw off results in my experiments. Triangles handle it better.
 
 [Calculate your y+ value](https://www.cadence.com/en_US/home/tools/system-analysis/computational-fluid-dynamics/y-plus.html). Use dynamic viscosity of air at SATP, which is around [0.00001849 kg/m-s](https://www.engineersedge.com/physics/viscosity_of_air_dynamic_and_kinematic_14483.htm#:~:text=At%2025%20%C2%B0C%2C%20the,the%20kinematic%20viscosity%2015.7%20cSt.).
 
@@ -50,12 +50,12 @@ Insert the "Inflation" task and enter your y+.
 ![inflation](/assets/images/inflation.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 5 Inflation layers for wing</i></font></p>
 
-Insert edge sizing for wing. For a half meter wing, around 200 divisions is good. In general, try to use as many divisions as possible before your mesh becomes too fine and your solution starts to break down (it will break down when using coupled solvers with non-negligible viscous effects).
+Insert edge sizing for wing. For a half meter chord, 0.1mm long cells are usually good. In general, try to use as many divisions as possible before your mesh becomes too fine and your solution starts to break down (it will break down when using coupled solvers with non-negligible viscous effects).
 
 ![eswing](/assets/images/eswing.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 6 Edge sizing for wing</i></font></p>
 
-Insert face sizings for the nearfield, farfield, and the rest of the mesh. I found 4, 16, and 64mm worked well respectively, however this is just a guide. Do your own mesh sensitivity studies, **always**.
+Insert face sizings for the nearfield, farfield, and the rest of the mesh. I found 8, 16, and 64mm worked well respectively, however this is just a guide. Do your own mesh sensitivity studies, **always**.
 
 ![boi1](/assets/images/boi1.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 7 Nearfield sizing</i></font></p>
@@ -63,7 +63,7 @@ Insert face sizings for the nearfield, farfield, and the rest of the mesh. I fou
 ![boi2](/assets/images/boi2.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 8 Farfield sizing</i></font></p>
 
-Set your target skewness. I'm going for 0.5 which, again, I've found to work well for getting accurate data.
+Set your target skewness. I'm going for 0.7 which, again, I've found to work well for getting accurate data. Try to get the lowest possible skewness without sacrificing compute time. You still have the rest of the design and analysis process to go through. And don't forget how long manufacturing takes...
 
 ![skewdef](/assets/images/skewdef.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 9 Definition of skewness from Ansys documentation</i></font></p>
