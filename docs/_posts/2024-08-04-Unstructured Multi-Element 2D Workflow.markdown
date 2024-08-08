@@ -63,7 +63,9 @@ Insert face sizings for the nearfield, farfield, and the rest of the mesh. I fou
 ![boi2](/assets/images/boi2.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 8 Farfield sizing</i></font></p>
 
-Set your target skewness. I'm going for 0.7 which, again, I've found to work well for getting accurate data. Try to get the lowest possible skewness without sacrificing compute time. You still have the rest of the design and analysis process to go through. And don't forget how long manufacturing takes...
+Set your target skewness. I'm going for 0.7 which, again, I've found to work well for getting accurate data. Try to get the lowest possible skewness without sacrificing compute time.
+
+Just be sure to not get lost in the sauce trying to get a pixel perfect mesh. You still have the rest of the design and analysis process to go through. And don't forget how long manufacturing takes...
 
 ![skewdef](/assets/images/skewdef.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 9 Definition of skewness from Ansys documentation</i></font></p>
@@ -73,6 +75,13 @@ Set your target skewness. I'm going for 0.7 which, again, I've found to work wel
 
 Generate your mesh. This will take 3-15 minutes depending on your hardware. If it takes longer than that, get better hardware.
 
+Last step for the mesh, set "Send to Solver" for boi1 and boi2 to "No." Otherwise you will not be able to run your sim.
+
+![sts](/assets/images/sts.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 11 Disable send to solver for all BoIs</i></font></p>
+
+---
+# Setup
 
 
 
