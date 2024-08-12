@@ -82,7 +82,38 @@ Last step for the mesh, set "Send to Solver" for boi1 and boi2 to "No." Otherwis
 
 ---
 # Setup
+Be sure to enable double precision for improved accuracy, and enter the total number of cores available on your machine. Enable your GPU(s) under "Parallel Settings" if you have any.
 
+Input your velocity boundary condition. Set your ground and sky to "inviscid" condition (specified shear of 0 Pa). Make sure the wing is set to no slip condition.
+
+![groundBC](/assets/images/groundBC.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 12 Inviscid ground, do the same for sky</i></font></p>
+
+If you are doing a ground effect study, set the ground to translating at the desired velocity, as shown below.
+
+![movingBC](/assets/images/movingBC.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 13 Ground effect BC</i></font></p>
+
+Create your monitors for Cl, Cd, and anything else you want, and make sure you print to console so you can view the results during the solve.
+
+![monitors](/assets/images/monitors.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 14 Report monitors</i></font></p>
+
+Set your reference values. **For 2D CFD, your reference area is chord*depth**, meaning if your depth=1m your chord is simply your reference area, which simplifies things a lot. So, for practical purposes, **keep your depth=1m always**.
+
+Enter your length (chord, global chord for multi-element) and velocity as well.
+
+Just for the reader's knowledge, these reference values are only used when calcualting Cl and Cd to output to the console. However the values entered in the BCs are what ultimately matter since that is what Ansys uses when solving.
+
+So for your own simplicity, make sure your reference values and BCs are the same.
+
+![refvalues](/assets/images/refvalues.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 15 Reference values</i></font></p>
+
+Set your turbulence model. I highly recommend reading the Ansys documentation for k-w SST w/ Intermittency to understand why these models are used, and to get an intuitive feeling of how they affect the solution. Below are some useful links which are good to read up on.
+
+| k-w SST | https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v242/en/flu_th/flu_th_sec_turb_kw_sst.html |
+|  |  |
 
 
 
