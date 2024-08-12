@@ -112,12 +112,12 @@ So for your own simplicity, make sure your reference values and BCs are the same
 
 Set your turbulence model. I highly recommend reading the Ansys documentation for k-w SST w/ Intermittency to understand why these models are used, and to get an intuitive feeling of how they affect the solution. Below are some useful links which are good to read up on.
 
-| k-w SST | https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v242/en/flu_th/flu_th_sec_turb_kw_sst.html |
+| k-w SST | [https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v242/en/flu_th/flu_th_sec_turb_kw_sst.html](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v242/en/flu_th/flu_th_sec_turb_kw_sst.html) |
 |  |  |
 
 
 
-
+[https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v242/en/flu_th/flu_th_sec_turb_kw_sst.html](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v242/en/flu_th/flu_th_sec_turb_kw_sst.html)
 
 
 
