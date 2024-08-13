@@ -112,14 +112,22 @@ So for your own simplicity, make sure your reference values and BCs are the same
 
 Set your turbulence model. I highly recommend reading the Ansys documentation for k-w SST w/ Intermittency to understand why these models are used, and to get an intuitive feeling of how they affect the solution. Below are some useful links which are good to read up on.
 
-| k-w SST | [https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v242/en/flu_th/flu_th_sec_turb_kw_sst.html](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v242/en/flu_th/flu_th_sec_turb_kw_sst.html) |
-|  |  |
+| k-w SST turbulence model | [https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v242/en/flu_th/flu_th_sec_turb_kw_sst.html](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v242/en/flu_th/flu_th_sec_turb_kw_sst.html) |
+| Intermittency transition model | [https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v242/en/flu_th/flu_th_sec_turb_intermittency_over.html?q=transition%20model](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v242/en/flu_th/flu_th_sec_turb_intermittency_over.html?q=transition%20model) |
+| Near wall treatment for w-based turbulence models | [https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v242/en/flu_th/section_kbf_dl4_vvb.html?q=k%20omega%20sst%20near%20wall](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v242/en/flu_th/section_kbf_dl4_vvb.html?q=k%20omega%20sst%20near%20wall) |
 
+Again, for the reader's own knowledge, enhanced wall functions are automatically applied to the k-w SST turbulence model in Fluent. Wall functions are applied when y+ is greater than 30 (in the logarithmic layer).
 
+![walllaw](/assets/images/walllaw.png){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 16 Law of the wall</i></font></p>
 
-[https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v242/en/flu_th/flu_th_sec_turb_kw_sst.html](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v242/en/flu_th/flu_th_sec_turb_kw_sst.html)
+The y+ insensitive near-wall treatment for w-based models transitions between the lowRe formulation (y+ less than 5) to the highRe formulation (y+ greater than 30) in the best way possible.
 
+Anyways, back to 2D CFD. Below should be your turbulence/transition model settings.
 
+![turbtransmodel](/assets/images/turbtransmodel.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 17 k-w SST w/ Intermittency</i></font></p>
 
+Run your solution for 1000 iterations minimum. 3000 iterations is ideal if you have time.
 
 
