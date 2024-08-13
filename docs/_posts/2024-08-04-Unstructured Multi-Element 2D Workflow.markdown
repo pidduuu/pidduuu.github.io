@@ -128,6 +128,11 @@ Anyways, back to 2D CFD. Below should be your turbulence/transition model settin
 ![turbtransmodel](/assets/images/turbtransmodel.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 <p align = "center"><font size = "2" color="#00aaff"><i>Fig. 17 k-w SST w/ Intermittency</i></font></p>
 
+Add convergence conditions for Cl and Cd so you continue to run your simulation beyond Ansys' default convergence criteria.
+
+![convergenceconditions](/assets/images/convergenceconditions.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
+<p align = "center"><font size = "2" color="#00aaff"><i>Fig. 18 Convergence conditions for Cl and Cd</i></font></p>
+
 Run your solution for 1000 iterations minimum. 3000 iterations is ideal if you have time.
 
 
