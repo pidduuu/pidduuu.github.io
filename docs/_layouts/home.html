@@ -7,6 +7,12 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
+  {%- if page.categories.size > 0 -%}
+    {%- for tag in page.categories -%}
+    <span class="post-tag">{{ tag | capitalize }}</span>
+    {%- endfor -%}
+    {%- endif -%}
+
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
