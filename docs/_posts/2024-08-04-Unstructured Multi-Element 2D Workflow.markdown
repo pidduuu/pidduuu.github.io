@@ -2,7 +2,7 @@
 layout: post
 title:  "Unstructured Multi-Element 2D Workflow"
 date:   2024-08-03 7:46:00 -0400
-categories: testCategory
+categories: [test1, test2, test3]
 
 ---
 MSES did not want to plot results for cases with large amounts of flow separation. For FSAE we need to be able to push into the flow separation regime to find the optimal multi-element wing setups.
