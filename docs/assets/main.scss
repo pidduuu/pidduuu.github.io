@@ -50,7 +50,7 @@ $on-laptop:        800px !default;
   "minima/syntax-highlighting"
 ;
 
-.post-tag {
+.post-tag a {
   @include relative-font-size(.75);
   border: 1px solid $grey-color;
   border-radius: 5px;
