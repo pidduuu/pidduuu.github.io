@@ -21,7 +21,7 @@ layout: default
           </a>
 
           {%- for tag in post.categories -%}
-            <span class="post-tag">{{ tag | capitalize }}</span>
+          <a href="{{ '/categories/#' | append: tag | downcase | replace: ' ', '-' | relative_url }}" class="post-tag">{{ tag | capitalize }}</a>
           {%- endfor -%}
 
         </h3>
