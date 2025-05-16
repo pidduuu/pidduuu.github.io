@@ -13,11 +13,13 @@ layout: default
     </div>
 </header>
 
-{%- if page.categories.size > 0 -%}
-    {%- for tag in page.categories -%}
-    <span class="post-tag">{{ tag | capitalize }}</span>
-    {%- endfor -%}
+<div>
+    {%- if page.categories.size > 0 -%}
+        {%- for tag in page.categories -%}
+        <span class="post-tag">{{ tag | capitalize }}</span>
+        {%- endfor -%}
     {%- endif -%}
+</div>
 
 <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
