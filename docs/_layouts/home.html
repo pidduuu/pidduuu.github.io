@@ -23,6 +23,11 @@ layout: default
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
+        {%- if page.categories.size > 0 -%}
+          {%- for tag in page.categories -%}
+          <span class="post-tag">{{ tag | capitalize }}</span>
+          {%- endfor -%}
+        {%- endif -%}
       </li>
       {%- endfor -%}
     </ul>

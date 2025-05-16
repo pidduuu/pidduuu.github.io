@@ -2,11 +2,7 @@
 layout: default
 ---
 <article class="post">
-  {%- if page.categories.size > 0 -%}
-    {%- for tag in page.categories -%}
-    <span class="post-tag">{{ tag | capitalize }}</span>
-    {%- endfor -%}
-  {%- endif -%}
+
   <div class="post-content">
     {{ content }}
   </div>
