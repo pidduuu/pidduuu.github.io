@@ -28,7 +28,7 @@ linkedin_username:  asad-soomro
 github_username:  pidduuu
 
 # Build settings
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
