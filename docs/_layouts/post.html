@@ -13,7 +13,7 @@ layout: default
     </div>
     {%- if page.categories.size > 0 -%}
         {%- for tag in page.categories -%}
-        <span class="post-tag"><a href="{{ '/categories/#' | append: tag | downcase | replace: ' ', '-' | relative_url }}" class="post-tag">{{ tag }}</a></span>
+        <span class="post-tag"><a href="{{ '/categories/#' | append: tag | downcase | replace: ' ', '-' | relative_url }}" class="post-tag"></a></span>
         {%- endfor -%}
     {%- endif -%}
 </header>
