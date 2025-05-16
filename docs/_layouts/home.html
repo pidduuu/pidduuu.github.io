@@ -19,11 +19,11 @@ layout: default
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-          {%- if page.categories.size > 0 -%}
-            {%- for tag in page.categories -%}
+
+          {%- for tag in post.categories -%}
             <span class="post-tag">{{ tag | capitalize }}</span>
-            {%- endfor -%}
-          {%- endif -%}
+          {%- endfor -%}
+
         </h3>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
