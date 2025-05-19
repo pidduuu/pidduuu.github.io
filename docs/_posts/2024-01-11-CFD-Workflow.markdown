@@ -2,7 +2,7 @@
 layout: post
 title:  "CFD Workflow"
 date:   2024-04-20 07:42:00 -0400
-categories: jekyll update
+categories: [formula SAE, 3D CFD]
 ---
 I want to get more into the specific CFD workflow the team and I followed this season. The following serves as a blend of business-casual documentation, and a tutorial for future members of the team.
 

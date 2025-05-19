@@ -2,7 +2,7 @@
 layout: post
 title:  "Pilot Post"
 date:   2023-08-13 03:40:00 -0400
-categories: jekyll update
+categories: [shower thoughts]
 ---
 Through this portfolio I will attempt to track my growth as an engineer.
 

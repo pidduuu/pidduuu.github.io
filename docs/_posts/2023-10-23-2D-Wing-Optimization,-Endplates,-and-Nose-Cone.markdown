@@ -2,7 +2,7 @@
 layout: post
 title:  "2D Wing Optimization, Endplates, and Nose Cone"
 date:   2023-10-23 02:52:00 -0400
-categories: jekyll update
+categories: [formula SAE, aerodynamics, CAD, 2D CFD, 3D CFD]
 ---
 
 ---
