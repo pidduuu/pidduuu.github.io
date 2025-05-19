@@ -2,7 +2,7 @@
 layout: post
 title:  "Preliminary Full Car Simulation"
 date:   2023-11-11 02:52:00 -0400
-categories: [Formula SAE, 3D CFD, CAD]
+categories: [Formula SAE, 3D CFD, Aerodynamics, CAD]
 ---
 This is a bit of a shorter design update, but an important one nonetheless. We are now starting to iterate on our designs based on the data from the following full car simulation.
 

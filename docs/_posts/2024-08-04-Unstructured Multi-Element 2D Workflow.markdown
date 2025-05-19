@@ -2,7 +2,7 @@
 layout: post
 title:  "Unstructured Multi-Element 2D Workflow"
 date:   2024-08-03 7:46:00 -0400
-categories: [Formula SAE, 2D CFD]
+categories: [Formula SAE, 2D CFD, Aerodynamics]
 
 ---
 MSES did not want to plot results for cases with large amounts of flow separation. For FSAE we need to be able to push into the flow separation regime to find the optimal multi-element wing setups.
