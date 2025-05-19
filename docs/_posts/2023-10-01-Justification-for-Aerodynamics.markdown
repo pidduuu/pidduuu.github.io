@@ -2,7 +2,7 @@
 layout: post
 title:  "Justification for Aerodynamics"
 date:   2023-10-01 01:07:00 -0400
-categories: [Formula SAE, Aerodynamics, Software Development, Vehicle Dynamics, 2D CFD]
+categories: [Formula SAE, 2D CFD, Aerodynamics, Software Development, Vehicle Dynamics]
 ---
 The past month and a half has been extremely busy...
 
