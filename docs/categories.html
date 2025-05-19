@@ -6,7 +6,23 @@ title: Categories
 
 <div class="posts-by-tag">
     <ul class="tag-post-list">
-        {% for category in site.categories %}
+    {% assign sorted_categories = site.categories | sort %}
+        {% for category in sorted_categories %}
+            {% assign tag_name = category[0] %}
+            <div>
+            <h3 class="tag-header" id="{{ tag_name | downcase | replace: ' ', '-' }}">{{ tag_name }}</h3>
+            {% for post in category[1] %}
+            <div class="tag-post-title">
+                <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+            </div>
+            {% endfor %}
+            </div>
+    {% endfor %}
+    </ul>
+</div>
+
+<!--
+{% for category in site.categories %}
         {% capture tag_name %}{{ category | first }}{% endcapture %}
         <div>
             <h3 class="tag-header" id="{{ category[0] | downcase | replace: ' ', '-' }}">{{ tag_name }}</h3>
@@ -17,5 +33,4 @@ title: Categories
             {% endfor %}
         </div>
         {% endfor %}
-    </ul>
-</div>
+-->
