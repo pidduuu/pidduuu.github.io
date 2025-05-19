@@ -2,7 +2,7 @@
 layout: post
 title:  "Design Reviews and Lessons Learned"
 date:   2024-04-21 07:46:00 -0400
-categories: [formula SAE, shower thoughts]
+categories: [Formula SAE, Shower Thoughts]
 ---
 With design coming to a close for EV5, I've learned a lot about aerodynamic design and project management. This post aims to recap the 3 design reviews we have had this past season and summarize the lessons learned.
 

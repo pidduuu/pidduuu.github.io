@@ -2,7 +2,7 @@
 layout: post
 title:  "Suspension Considerations for Aerodynamics"
 date:   2023-11-01 02:52:00 -0400
-categories: [formula SAE, aerodynamics, CAD, vehicle dynamics]
+categories: [Formula SAE, Aerodynamics, CAD, Vehicle Dynamics]
 ---
 I'd like to preface this design update with a huge thank you to everyone who works on [designjudges.com](https://www.designjudges.com/). This collection of articles has been invaluable to myself and everyone at MAC Formula Electric over the past year and a half. It has opened our eyes to more things we need to consider in our subsystem designs.
 
