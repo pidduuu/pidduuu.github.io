@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Radiator Selection and Placement"
-date:   2025-01-15 7:46:00 -0400
+title:  "EV6 Radiator Selection and Placement"
+date:   2026-01-15 7:46:00 -0400
 categories: [Formula SAE, 3D CFD, Aerodynamics, Cooling, Software Development]
 
 ---
