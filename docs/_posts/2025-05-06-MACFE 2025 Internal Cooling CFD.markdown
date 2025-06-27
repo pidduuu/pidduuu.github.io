@@ -5,12 +5,6 @@ date:   2025-05-06 7:46:00 -0400
 categories: [Formula SAE, 3D CFD, Cooling]
 
 ---
-- motor jackets
-    - hydraulic performance
-    - thermal performance
-- cold plates
-    - hydraulic performance
-
 In order to quantify the operating point of the MACFE 2025 cooling loop, the pressure drop across all circuit components needs to be determined. For custom designed components such as the motor jackets and inverter cold plates, it would need to either be determined experimentally or through CFD analysis. Due to time and budget constraints, we proceeded with the latter.
 
 The results of this article were then integrated into a major and minor losses calculator to find the operating point. This will be documented in a post directly following this one.
