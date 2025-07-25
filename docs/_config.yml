@@ -35,7 +35,6 @@ plugins:
 header_pages:
   - categories.html
   - gallery.html
-  - about.html
 
 # Exclude from processing.
 # The following items will not be processed, by default.
