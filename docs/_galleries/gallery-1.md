@@ -3,12 +3,12 @@ layout: gallery
 title: MACFE 2025
 thumbnail: /gallery2025/1.png
 images:
-    - /gallery2025/1.png
-    - /gallery2025/2.png
-    - /gallery2025/3.png
-    - /gallery2025/4.png
-    - /gallery2025/5.png
-    - /gallery2025/6.png
+    - /gallery2025/1.PNG
+    - /gallery2025/2.PNG
+    - /gallery2025/3.PNG
+    - /gallery2025/4.PNG
+    - /gallery2025/5.PNG
+    - /gallery2025/6.PNG
 ---
 
 <head>
