@@ -1,7 +1,7 @@
 ---
 layout: gallery
 title: MACFE 2025
-thumbnail: /gallery2025/1.png
+thumbnail: /gallery2025/1.PNG
 images:
     - /gallery2025/1.PNG
     - /gallery2025/2.PNG
