@@ -3,44 +3,38 @@ layout: gallery
 title: MACFE 2025
 thumbnail: /gallery2025/1.PNG
 images:
-    - /gallery2025/1.PNG
-    - /gallery2025/2.PNG
-    - /gallery2025/3.PNG
-    - /gallery2025/4.PNG
-    - /gallery2025/5.PNG
-    - /gallery2025/6.PNG
-    - /gallery2025/1.JPEG
-    - /gallery2025/2.JPEG
-    - /gallery2025/3.JPEG
-    - /gallery2025/4.JPEG
-    - /gallery2025/5.JPEG
-    - /gallery2025/6.JPEG
-    - /gallery2025/7.JPEG
+    - /gallery2025/1.jpg
+    - /gallery2025/2.jpg
+    - /gallery2025/3.jpg
+    - /gallery2025/4.jpg
+    - /gallery2025/5.jpg
+    - /gallery2025/6.jpg
+    - /gallery2025/7.jpg
     - /gallery2025/8.jpg
     - /gallery2025/9.jpg
     - /gallery2025/10.jpg
     - /gallery2025/11.jpg
-    - /gallery2025/12.JPEG
-    - /gallery2025/13.PNG
-    - /gallery2025/14.JPEG
-    - /gallery2025/15.JPEG
-    - /gallery2025/16.JPEG
-    - /gallery2025/17.JPEG
-    - /gallery2025/18.JPEG
-    - /gallery2025/19.JPEG
-    - /gallery2025/20.JPEG
-    - /gallery2025/21.JPEG
-    - /gallery2025/22.JPEG
-    - /gallery2025/23.JPEG
-    - /gallery2025/24.JPEG
-    - /gallery2025/25.JPEG
-    - /gallery2025/26.JPEG
-    - /gallery2025/27.JPEG
-    - /gallery2025/28.JPEG
-    - /gallery2025/29.JPEG
-    - /gallery2025/30.JPEG
-    - /gallery2025/31.JPEG
-    - /gallery2025/32.JPEG
+    - /gallery2025/12.jpg
+    - /gallery2025/13.jpg
+    - /gallery2025/14.jpg
+    - /gallery2025/15.jpg
+    - /gallery2025/16.jpg
+    - /gallery2025/17.jpg
+    - /gallery2025/18.jpg
+    - /gallery2025/19.jpg
+    - /gallery2025/20.jpg
+    - /gallery2025/21.jpg
+    - /gallery2025/22.jpg
+    - /gallery2025/23.jpg
+    - /gallery2025/24.jpg
+    - /gallery2025/25.jpg
+    - /gallery2025/26.jpg
+    - /gallery2025/27.jpg
+    - /gallery2025/28.jpg
+    - /gallery2025/29.jpg
+    - /gallery2025/30.jpg
+    - /gallery2025/31.jpg
+    - /gallery2025/32.jpg
     - /gallery2025/33.jpg
 ---
 
