@@ -1,0 +1,44 @@
+---
+layout: default
+title: Gallery
+permalink: /gallery/
+---
+
+<h1>Gallery</h1>
+
+<div class="gallery-cards">
+  {% for gallery in site.galleries %}
+    <a href="{{ gallery.url }}" class="gallery-card">
+      <img src="{{ gallery.thumbnail }}" alt="{{ gallery.title }} thumbnail">
+      <h3>{{ gallery.title }}</h3>
+    </a>
+  {% endfor %}
+</div>
+
+<style>
+.gallery-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+.gallery-card {
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+.gallery-card:hover {
+  transform: scale(1.03);
+}
+.gallery-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.gallery-card h3 {
+  text-align: center;
+  padding: 0.5em;
+}
+</style>

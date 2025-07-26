@@ -35,6 +35,10 @@ plugins:
 header_pages:
   - categories.html
   - gallery.html
+collections:
+  galleries:
+    output: true
+    permalink: /gallery/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
