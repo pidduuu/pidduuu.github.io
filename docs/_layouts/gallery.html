@@ -56,30 +56,3 @@ layout: default
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 </style>
-
-<script>
-function resizeAllMasonryGrids() {
-  document.querySelectorAll(".masonry-grid").forEach(grid => {
-    const rowHeight = 1;
-    const rowGap = parseInt(getComputedStyle(grid).getPropertyValue("gap"));
-
-    grid.querySelectorAll(".masonry-item").forEach(item => {
-      const img = item.querySelector("img");
-      if (!img.complete) {
-        img.addEventListener("load", () => resizeItem(item, grid, rowHeight, rowGap));
-      } else {
-        resizeItem(item, grid, rowHeight, rowGap);
-      }
-    });
-  });
-}
-function resizeItem(item, grid, rowHeight, rowGap) {
-  const content = item.querySelector("img");
-  const height = content.getBoundingClientRect().height;
-  const span = Math.ceil((height + rowGap) / (rowHeight + rowGap));
-  item.style.gridRowEnd = `span ${span}`;
-}
-
-window.addEventListener("load", resizeAllMasonryGrids);
-window.addEventListener("resize", resizeAllMasonryGrids);
-</script>
