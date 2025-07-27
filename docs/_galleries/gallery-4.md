@@ -4,7 +4,7 @@ title: MAC EV3
 thumbnail: /galleryEV3/18.jpg
 images:
     - /galleryEV3/1.jpg
-    - /galleryEV3/2.jpg
+    - /galleryEV3/2.JPG
     - /galleryEV3/3.jpg
     - /galleryEV3/4.jpg
     - /galleryEV3/5.jpg
