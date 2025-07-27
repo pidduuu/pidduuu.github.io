@@ -3,7 +3,6 @@ layout: gallery
 title: MAC EV4
 thumbnail: /galleryEV4/28.jpg
 images:
-    - /galleryEV4/0.jpg
     - /galleryEV4/1.JPG
     - /galleryEV4/2.JPG
     - /galleryEV4/3.JPG
@@ -14,12 +13,10 @@ images:
     - /galleryEV4/8.JPG
     - /galleryEV4/9.JPG
     - /galleryEV4/10.JPG
-    - /galleryEV4/11.JPG
     - /galleryEV4/12.JPG
     - /galleryEV4/13.JPG
     - /galleryEV4/14.JPG
     - /galleryEV4/15.jpg
-    - /galleryEV4/16.JPG
     - /galleryEV4/17.JPG
     - /galleryEV4/18.JPG
     - /galleryEV4/19.JPG
