@@ -4,33 +4,33 @@ title: MAC EV4
 thumbnail: /galleryEV4/28.jpg
 images:
     - /galleryEV4/0.jpg
-    - /galleryEV4/1.jpg
-    - /galleryEV4/2.jpg
-    - /galleryEV4/3.jpg
-    - /galleryEV4/4.jpg
-    - /galleryEV4/5.jpg
-    - /galleryEV4/6.jpg
-    - /galleryEV4/7.jpg
-    - /galleryEV4/8.jpg
-    - /galleryEV4/9.jpg
-    - /galleryEV4/10.jpg
-    - /galleryEV4/11.jpg
-    - /galleryEV4/12.jpg
-    - /galleryEV4/13.jpg
-    - /galleryEV4/14.jpg
+    - /galleryEV4/1.JPG
+    - /galleryEV4/2.JPG
+    - /galleryEV4/3.JPG
+    - /galleryEV4/4.JPG
+    - /galleryEV4/5.JPG
+    - /galleryEV4/6.JPG
+    - /galleryEV4/7.JPG
+    - /galleryEV4/8.JPG
+    - /galleryEV4/9.JPG
+    - /galleryEV4/10.JPG
+    - /galleryEV4/11.JPG
+    - /galleryEV4/12.JPG
+    - /galleryEV4/13.JPG
+    - /galleryEV4/14.JPG
     - /galleryEV4/15.jpg
-    - /galleryEV4/16.jpg
-    - /galleryEV4/17.jpg
-    - /galleryEV4/18.jpg
-    - /galleryEV4/19.jpg
-    - /galleryEV4/20.jpg
-    - /galleryEV4/21.jpg
-    - /galleryEV4/22.jpg
-    - /galleryEV4/23.jpg
-    - /galleryEV4/24.jpg
-    - /galleryEV4/25.jpg
-    - /galleryEV4/26.jpg
-    - /galleryEV4/27.jpg
+    - /galleryEV4/16.JPG
+    - /galleryEV4/17.JPG
+    - /galleryEV4/18.JPG
+    - /galleryEV4/19.JPG
+    - /galleryEV4/20.JPG
+    - /galleryEV4/21.JPG
+    - /galleryEV4/22.JPG
+    - /galleryEV4/23.JPG
+    - /galleryEV4/24.JPG
+    - /galleryEV4/25.JPG
+    - /galleryEV4/26.JPG
+    - /galleryEV4/27.JPG
     - /galleryEV4/28.jpg
     - /galleryEV4/29.jpg
     - /galleryEV4/30.jpg
