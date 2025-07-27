@@ -13,27 +13,27 @@ images:
     - /galleryEV5/8.jpg
     - /galleryEV5/9.jpg
     - /galleryEV5/10.jpg
-    - /galleryEV5/11.jpg
-    - /galleryEV5/12.jpg
-    - /galleryEV5/13.jpg
-    - /galleryEV5/14.jpg
-    - /galleryEV5/15.jpg
-    - /galleryEV5/16.jpg
-    - /galleryEV5/17.jpg
-    - /galleryEV5/18.jpg
+    - /galleryEV5/11.JPG
+    - /galleryEV5/12.JPG
+    - /galleryEV5/13.JPG
+    - /galleryEV5/14.JPG
+    - /galleryEV5/15.JPG
+    - /galleryEV5/16.JPG
+    - /galleryEV5/17.JPG
+    - /galleryEV5/18.JPG
     - /galleryEV5/19.jpg
     - /galleryEV5/20.jpg
-    - /galleryEV5/21.jpg
-    - /galleryEV5/22.jpg
+    - /galleryEV5/21.JPG
+    - /galleryEV5/22.JPG
     - /galleryEV5/23.jpg
-    - /galleryEV5/24.jpg
-    - /galleryEV5/25.jpg
+    - /galleryEV5/24.JPG
+    - /galleryEV5/25.JPG
     - /galleryEV5/26.jpg
-    - /galleryEV5/27.jpg
+    - /galleryEV5/27.JPG
     - /galleryEV5/28.jpg
-    - /galleryEV5/29.jpg
-    - /galleryEV5/30.jpg
-    - /galleryEV5/31.jpg
+    - /galleryEV5/29.JPG
+    - /galleryEV5/30.JPG
+    - /galleryEV5/31.JPG
     - /galleryEV5/32.jpg
     - /galleryEV5/33.jpg
     - /galleryEV5/34.jpg
