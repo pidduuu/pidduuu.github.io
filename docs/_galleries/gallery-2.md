@@ -31,10 +31,10 @@ images:
     - /galleryEV5/26.jpg
     - /galleryEV5/27.JPG
     - /galleryEV5/28.jpg
-    - /galleryEV5/29.JPG
+    - /galleryEV5/29.JPEG
     - /galleryEV5/30.JPG
     - /galleryEV5/31.JPG
-    - /galleryEV5/32.jpg
+    - /galleryEV5/32.JPG
     - /galleryEV5/33.jpg
     - /galleryEV5/34.jpg
     - /galleryEV5/35.jpg
