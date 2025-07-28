@@ -19,8 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Asad Soomro
-email: a.soomro072003@gmail.com
-description: Aerodynamics and Cooling Member at MAC Formula Electric. Fifth Year Mechanical Engineering at McMaster University. # this means to ignore newlines until "baseurl:"
+email: soomra3@mcmaster.ca
+description: Aerodynamics and Cooling at MAC Formula Electric. 4th Year Mechanical Engineering at McMaster University. # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -35,6 +35,7 @@ plugins:
 header_pages:
   - categories.html
   - gallery.html
+  - about.html
 collections:
   galleries:
     output: true
